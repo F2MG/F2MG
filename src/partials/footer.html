@@ -1,0 +1,116 @@
+<footer class="page-footer">
+    <div class="page-footer__inner">
+        <div data-uk-grid>
+            <div class="uk-width-2-5@m">
+                <div class="page-footer__logo">
+                    <a class="logo logo-text logo-footer" href="/">
+                        <span class="logo-main">F<span class="logo-number">2</span>MG</span>
+                        <span class="logo-sub">GLOBAL BEAUTY ACADEMY</span>
+                    </a>
+                </div>
+                <div class="page-footer__menus">
+                    <div class="uk-child-width-1-2" data-uk-grid>
+                        <div>
+                            <div class="uk-h4">Quick Links</div>
+                            <ul class="uk-nav">
+                                <li><a href="/">Homepage</a></li>
+                                <li><a href="/about">About F<span class="logo-number">2</span>MG</a></li>
+                                <li><a href="/products">Our Products</a></li>
+                                <li><a href="/contact">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="uk-h4">Get Support</div>
+                            <ul class="uk-nav">
+                                <li><a href="/account">My Account</a></li>
+                                <li><a href="/order-history">Order History</a></li>
+                                <li><a href="/shipping-policy">Shipping Policy</a></li>
+                                <li><a href="/promotions">Promotions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-3-5@m">
+                <div class="page-footer__text">
+                    <p>Enim venia quis nostrud exrcit ulamco laboris nst aliquipas conseqa reprehen derit eu fugiat nula pariatur. Lorem ipsum dolor sitya amet consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class="page-footer__social">
+                    <div class="uk-h3">Follow Us</div>
+                    <ul class="social">
+                        <li><a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="http://www.vimeo.com" target="_blank"><i class="fab fa-vimeo-v"></i></a></li>
+                        <li><a href="http://www.google-plus.com" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="page-footer__bottom">
+                    <div class="copy">(c) 2022 — All rights reserved.</div>
+                    <div class="payments">
+                        <img src="assets/img/payment-1.png" alt="payment">
+                        <img src="assets/img/payment-2.png" alt="payment">
+                        <img src="assets/img/payment-3.png" alt="payment">
+                        <img src="assets/img/payment-4.png" alt="payment">
+                        <img src="assets/img/payment-5.png" alt="payment">
+                        <img src="assets/img/payment-6.png" alt="payment">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Mobile Offcanvas Menu -->
+    <div id="offcanvas" data-uk-offcanvas="overlay: true; mode: slide; flip: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column uk-flex-between">
+            <button class="uk-offcanvas-close" type="button" data-uk-close=""></button>
+            <div>
+                <div class="uk-margin uk-margin-remove-top">
+                    <a class="logo logo-text" href="/">
+                        <span class="logo-main">F<span class="logo-number">2</span>MG</span>
+                        <span class="logo-sub">GLOBAL BEAUTY ACADEMY</span>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="uk-margin">
+                    <ul class="uk-nav uk-nav-default">
+                        {% for item in menu.items %}
+                        <li>
+                            <a href="{{ item.url }}">{{ item.label }}</a>
+                            {% if item.children %}
+                            <ul class="uk-nav-sub">
+                                {% for child in item.children %}
+                                <li><a href="{{ child.url }}">{{ child.label }}</a></li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="social-block">
+                <p>Tempor incididunt ut labore sed low dolore magna aliqua uet enim ad tempor veniam anety.</p>
+                <ul class="social">
+                    <li><a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="http://www.vimeo.com" target="_blank"><i class="fab fa-vimeo-v"></i></a></li>
+                    <li><a href="http://www.google-plus.com" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Search Modal -->
+    <div class="uk-modal-full uk-modal" id="modal-search" data-uk-modal>
+        <div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle" data-uk-height-viewport>
+            <button class="uk-modal-close-full" type="button" data-uk-close></button>
+            <form class="uk-search uk-search-large">
+                <input class="uk-search-input uk-text-center" type="search" placeholder="Search" autofocus>
+            </form>
+        </div>
+    </div>
+</footer>
+

@@ -27,6 +27,132 @@ jQuery(document).ready(function ($) {
     return false;
   }); // Slider 
 
+  // Hero Background Slider (THE LUNE 스타일)
+  // 슬라이드별 텍스트 데이터
+  const heroSlideData = [
+    {
+      titleLine1: 'FIRST CLASS',
+      titleLine2: 'BEAUTY ACADEMY',
+      subtitle: 'F<span class="logo-number">2</span>MG GLOBAL BEAUTY ACADEMY',
+      description: 'F2MG와 함께하는<br>특별한 경험을 만나보세요.<br>최고급 뷰티 교육으로 품격 있는 미래를 선사합니다.'
+    },
+    {
+      titleLine1: 'BEAUTY ENTRANCE',
+      titleLine2: '',
+      subtitle: 'F<span class="logo-number">2</span>MG GLOBAL BEAUTY ACADEMY',
+      description: '뷰티 입시의 시작부터 합격까지,<br>전문가가 설계한 맞춤 뷰티 입시 솔루션.'
+    },
+    {
+      titleLine1: 'CHEONGDAM',
+      titleLine2: 'NEW STANDARD',
+      subtitle: 'F<span class="logo-number">2</span>MG GLOBAL BEAUTY ACADEMY',
+      description: '트렌드의 중심, 청담점 오픈<br>프리미엄 공간과 실무 중심 커리큘럼'
+    },
+    {
+      titleLine1: 'GLOBAL BEAUTY',
+      titleLine2: 'CAREER PATH',
+      subtitle: 'F<span class="logo-number">2</span>MG GLOBAL BEAUTY ACADEMY',
+      description: '국내를 넘어 세계로,<br>글로벌 뷰티 커리어를 준비하세요.<br>해외 뷰티 교육·취업 연계'
+    },
+    {
+      titleLine1: 'BEAUTY BUSINESS',
+      titleLine2: '',
+      subtitle: 'F<span class="logo-number">2</span>MG GLOBAL BEAUTY ACADEMY',
+      description: '기술을 넘어 브랜드를 만드는 순간.<br>실전 중심 창업 교육으로<br>지속 가능한 뷰티 비즈니스를 완성합니다.'
+    }
+  ];
+
+  // 텍스트 업데이트 함수 (슬라이더 인스턴스를 파라미터로 받음)
+  function updateHeroText(swiperInstance) {
+    if (!swiperInstance) return;
+    
+    const realIndex = swiperInstance.realIndex;
+    const slideData = heroSlideData[realIndex];
+    
+    if (slideData) {
+      const titleLine1El = document.getElementById('hero-title-line1');
+      const titleLine2El = document.getElementById('hero-title-line2');
+      const subtitleEl = document.getElementById('hero-subtitle');
+      const descriptionEl = document.getElementById('hero-description');
+      const titleGroup = document.querySelector('.section-hero__title-group');
+      const contentWrapper = document.querySelector('.section-hero__content');
+      
+      // Fade out 효과
+      if (contentWrapper) {
+        contentWrapper.style.opacity = '0';
+        contentWrapper.style.transform = 'translateY(20px)';
+      }
+      
+      // 텍스트 업데이트
+      setTimeout(() => {
+        if (titleLine1El) titleLine1El.textContent = slideData.titleLine1;
+        if (titleLine2El) {
+          if (slideData.titleLine2 && slideData.titleLine2.trim() !== '') {
+            titleLine2El.textContent = slideData.titleLine2;
+            titleLine2El.style.display = 'block';
+          } else {
+            titleLine2El.style.display = 'none';
+          }
+        }
+        if (subtitleEl) subtitleEl.innerHTML = slideData.subtitle;
+        if (descriptionEl) descriptionEl.innerHTML = slideData.description;
+        
+        // Fade in 및 Fade-up 애니메이션 재생
+        if (contentWrapper) {
+          contentWrapper.style.opacity = '1';
+          contentWrapper.style.transform = 'translateY(0)';
+        }
+        
+        if (titleGroup) {
+          titleGroup.style.animation = 'none';
+          setTimeout(() => {
+            titleGroup.style.animation = 'fadeUp 1s ease-out 0.3s forwards';
+          }, 10);
+        }
+      }, 300);
+    }
+  }
+
+  const heroBgSlider = new Swiper('.hero-bg-slider', {
+    loop: true,
+    speed: 1000,
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true
+    },
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    // 드래그/스와이프 기능 활성화
+    simulateTouch: true,
+    allowTouchMove: true,
+    touchRatio: 1,
+    touchAngle: 45,
+    grabCursor: true,
+    // 네비게이션 버튼
+    navigation: {
+      nextEl: '.hero-slider-button-next',
+      prevEl: '.hero-slider-button-prev'
+    },
+    // 페이지네이션
+    pagination: {
+      el: '.hero-slider-pagination',
+      clickable: true,
+      bulletClass: 'swiper-pagination-bullet',
+      bulletActiveClass: 'swiper-pagination-bullet-active'
+    },
+    // 슬라이드 변경 이벤트
+    on: {
+      init: function() {
+        updateHeroText(this);
+      },
+      slideChange: function() {
+        updateHeroText(this);
+      }
+    }
+  });
+
   const sliderFirstScreen = new Swiper('.slider-first-screen .swiper-container', {
     loop: true,
     speed: 4000,
