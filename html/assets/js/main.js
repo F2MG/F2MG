@@ -196,3 +196,100 @@ if (animItems.length > 0) {
     animOnSroll();
   }, 300);
 }
+
+// 드롭다운 호버 기능 - 강력한 오버라이드
+(function() {
+  function forceShowDropdown(dropdown) {
+    if (!dropdown) return;
+    dropdown.removeAttribute('hidden');
+    dropdown.removeAttribute('aria-hidden');
+    dropdown.style.setProperty('display', 'block', 'important');
+    dropdown.style.setProperty('visibility', 'visible', 'important');
+    dropdown.style.setProperty('opacity', '1', 'important');
+    dropdown.style.setProperty('pointer-events', 'auto', 'important');
+  }
+  
+  function forceHideDropdown(dropdown) {
+    if (!dropdown) return;
+    dropdown.style.setProperty('display', 'none', 'important');
+    dropdown.style.setProperty('visibility', 'hidden', 'important');
+    dropdown.style.setProperty('opacity', '0', 'important');
+    dropdown.style.setProperty('pointer-events', 'none', 'important');
+  }
+  
+  function initDropdowns() {
+    var menuItems = document.querySelectorAll('.page-nav .uk-navbar-nav > li');
+    
+    menuItems.forEach(function(li) {
+      var dropdown = li.querySelector('.uk-navbar-dropdown');
+      if (!dropdown) return;
+      
+      // 초기 상태: 숨김
+      forceHideDropdown(dropdown);
+      
+      // 마우스 진입 - 즉시 표시
+      li.addEventListener('mouseenter', function() {
+        forceShowDropdown(dropdown);
+      }, true);
+      
+      // 마우스 이탈
+      li.addEventListener('mouseleave', function(e) {
+        var relatedTarget = e.relatedTarget;
+        setTimeout(function() {
+          if (!dropdown.matches(':hover') && (!relatedTarget || (!li.contains(relatedTarget) && !dropdown.contains(relatedTarget)))) {
+            forceHideDropdown(dropdown);
+          }
+        }, 200);
+      }, true);
+      
+      // 드롭다운에 마우스 진입 - 유지
+      dropdown.addEventListener('mouseenter', function() {
+        forceShowDropdown(dropdown);
+      }, true);
+      
+      // 드롭다운에서 마우스 이탈
+      dropdown.addEventListener('mouseleave', function(e) {
+        var relatedTarget = e.relatedTarget;
+        if (!relatedTarget || !li.contains(relatedTarget)) {
+          forceHideDropdown(dropdown);
+        }
+      }, true);
+    });
+  }
+  
+  // 즉시 실행
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initDropdowns);
+  } else {
+    initDropdowns();
+  }
+  
+  // 지연 실행 (UIkit 로드 후)
+  window.addEventListener('load', function() {
+    setTimeout(initDropdowns, 300);
+    setTimeout(initDropdowns, 800);
+    setTimeout(initDropdowns, 1500);
+  });
+  
+  // jQuery도 사용
+  if (typeof jQuery !== 'undefined') {
+    jQuery(document).ready(function() {
+      setTimeout(initDropdowns, 200);
+      setTimeout(initDropdowns, 600);
+      setTimeout(initDropdowns, 1200);
+    });
+  }
+  
+  // 주기적으로 확인 (UIkit이 계속 숨기는 경우 대비)
+  setInterval(function() {
+    var hoveredItems = document.querySelectorAll('.page-nav .uk-navbar-nav > li:hover');
+    hoveredItems.forEach(function(li) {
+      var dropdown = li.querySelector('.uk-navbar-dropdown');
+      if (dropdown) {
+        forceShowDropdown(dropdown);
+      }
+    });
+  }, 50);
+})();
+
+

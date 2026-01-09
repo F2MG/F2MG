@@ -2462,7 +2462,7 @@ footer .social li a:hover {
 
 .page-header {
     display: block;
-    z-index: 4;
+    z-index: 10000;
     position: absolute;
     top: 0;
     left: 0;
@@ -2513,8 +2513,10 @@ footer .social li a:hover {
     position: relative;
     overflow-x: auto;
     overflow-y: visible;
+    overflow: visible;
     -webkit-overflow-scrolling: touch;
     margin-right: 20px;
+    z-index: 10001;
 }
 
 .page-header__menu::-webkit-scrollbar {
@@ -2998,37 +3000,74 @@ footer .social li a:hover {
     opacity: 0.8;
 }
 
+.page-nav .uk-navbar-nav > li {
+    position: relative;
+}
+
 .page-nav .uk-navbar-dropdown {
     -webkit-box-shadow: 0 0 32px 8px rgba(0, 0, 0, 0.07);
     width: 280px;
     background-color: white;
     box-shadow: 0 0 32px 8px rgba(0, 0, 0, 0.07);
-    position: absolute;
-    z-index: 1000;
-    display: none;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s, visibility 0.3s;
-    top: 100%;
-    left: 0;
-    margin-top: 0;
-    padding-top: 10px;
+    position: absolute !important;
+    z-index: 10002 !important;
+    top: 100% !important;
+    left: 0 !important;
+    margin-top: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    transition: opacity 0.2s ease, visibility 0.2s ease !important;
+    overflow: visible !important;
 }
 
-.page-nav .uk-navbar-nav > li:hover .uk-navbar-dropdown,
-.page-nav .uk-navbar-dropdown:hover {
-    display: block;
-    opacity: 1;
-    visibility: visible;
+/* 호버 시 드롭다운 표시 */
+.page-nav .uk-navbar-nav > li:hover > .uk-navbar-dropdown,
+.page-nav .uk-navbar-nav > li > .uk-navbar-dropdown:hover {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
 }
 
+/* UIkit의 hidden 속성 완전 오버라이드 */
+.page-nav .uk-navbar-dropdown[hidden],
+.page-nav .uk-navbar-dropdown[aria-hidden="true"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+.page-nav .uk-navbar-nav > li:hover > .uk-navbar-dropdown[hidden],
+.page-nav .uk-navbar-nav > li:hover > .uk-navbar-dropdown[aria-hidden="true"],
+.page-nav .uk-navbar-nav > li > .uk-navbar-dropdown[hidden]:hover,
+.page-nav .uk-navbar-nav > li > .uk-navbar-dropdown[aria-hidden="true"]:hover {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+/* li에 패딩 추가하여 마우스 이동 공간 확보 */
 .page-nav .uk-navbar-nav > li {
-    padding-bottom: 10px;
-    margin-bottom: -10px;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    z-index: 10003;
 }
 
+/* page-nav 자체도 높은 z-index */
+.page-nav {
+    position: relative;
+    z-index: 10001;
+}
+
+/* 화살표는 호버 시에만 표시 */
 .page-nav .uk-navbar-dropdown-nav::before {
-    display: block;
+    display: none;
     position: absolute;
     top: -10px;
     left: 40px;
@@ -3038,6 +3077,10 @@ footer .social li a:hover {
     border-bottom: 10px solid #fff;
     border-left: 11px solid transparent;
     content: '';
+}
+
+.page-nav .uk-navbar-nav > li:hover > .uk-navbar-dropdown .uk-navbar-dropdown-nav::before {
+    display: block !important;
 }
 
 .page-nav .uk-navbar-dropdown-nav li a {
@@ -3653,7 +3696,15 @@ footer .social li a:hover {
     width: 100%;
     max-height: 100vh;
     overflow: hidden;
+}
 
+/* 섹션들이 헤더 드롭다운을 가리지 않도록 */
+.section-hero,
+.section-hero__content,
+.page-main,
+.page-wrapper {
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -8087,3 +8138,5 @@ body.page-about .slider-first-screen {
 
 
 }
+
+
