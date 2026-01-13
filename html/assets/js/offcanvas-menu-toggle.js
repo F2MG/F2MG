@@ -44,6 +44,15 @@
 
             // 클릭 이벤트 추가
             link.addEventListener('click', function(e) {
+                // 서브메뉴 항목 클릭이 아닌 경우에만 preventDefault
+                const clickedElement = e.target;
+                const isSubmenuItem = clickedElement.closest('.uk-nav-sub');
+                
+                // 서브메뉴 항목 클릭 시 링크가 정상 작동하도록 허용
+                if (isSubmenuItem) {
+                    return; // 서브메뉴 항목은 기본 동작 허용
+                }
+                
                 e.preventDefault();
                 e.stopPropagation();
 
@@ -73,7 +82,13 @@
                     }
                 }
                 
-                if (!currentSubmenu) return;
+                if (!currentSubmenu) {
+                    // 서브메뉴가 없으면 링크로 이동
+                    if (link.href && link.href !== '#' && !link.href.endsWith('#')) {
+                        window.location.href = link.href;
+                    }
+                    return;
+                }
 
                 // 현재 메뉴 토글
                 const isOpen = li.classList.contains('uk-open') || li.classList.contains('uk-active');
@@ -90,6 +105,18 @@
                     currentSubmenu.style.setProperty('visibility', 'visible', 'important');
                 }
             });
+            
+            // 서브메뉴 항목 클릭 이벤트 - 링크가 정상 작동하도록 보장
+            if (submenu) {
+                const submenuLinks = submenu.querySelectorAll('a');
+                submenuLinks.forEach(function(subLink) {
+                    // 서브메뉴 링크 클릭 시 이벤트 전파 방지 (메인 메뉴 토글 방지)
+                    subLink.addEventListener('click', function(e) {
+                        e.stopPropagation(); // 서브메뉴 클릭이 메인 메뉴로 전파되지 않도록
+                        // 링크는 정상적으로 작동하도록 허용 (preventDefault 하지 않음)
+                    });
+                });
+            }
 
             // 핸들러가 설정되었음을 표시
             link.setAttribute('data-toggle-handler', 'true');
