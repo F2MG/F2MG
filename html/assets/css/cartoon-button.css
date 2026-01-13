@@ -1,0 +1,168 @@
+/* Cartoon Button 스타일 - 원본 버튼에 직접 적용 */
+/* Hero Section 내부 버튼 제외 */
+
+/* Cartoon 버튼 스타일 적용 (원본 버튼 유지) */
+.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn),
+.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn),
+.uk-button-link.cartoon-btn-applied:not(.hero-cta-btn),
+a.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn),
+a.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn),
+button.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn),
+button.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn),
+input.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn),
+input.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn) {
+    position: relative;
+    height: 48px !important;
+    padding: 0 24px !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #262626 !important; /* text-neutral-800 */
+    border: 2px solid #262626 !important; /* border-neutral-800 */
+    border-radius: 9999px !important; /* rounded-full */
+    background-color: #fb923c !important; /* bg-orange-400 기본값 */
+    transition: all 0.15s ease !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    line-height: 48px !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    display: inline-block !important;
+}
+
+/* 하이라이트 효과 - 흰색 반투명 바 */
+.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn)::before,
+.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn)::before,
+.uk-button-link.cartoon-btn-applied:not(.hero-cta-btn)::before,
+a.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn)::before,
+a.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn)::before,
+button.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn)::before,
+button.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn)::before,
+input.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn)::before,
+input.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn)::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    width: 64px;
+    height: 96px;
+    background: rgba(255, 255, 255, 0.5); /* bg-white/50 */
+    transform: translateY(-50%) rotate(12deg);
+    transition: left 0.5s ease-in-out;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* 호버 효과 - 그림자 + 위로 이동 */
+.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled),
+.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled),
+.uk-button-link.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled),
+a.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn):hover,
+a.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn):hover,
+button.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled),
+button.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled),
+input.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled),
+input.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled) {
+    transform: translateY(-4px) !important; /* hover:-translate-y-1 */
+    box-shadow: 0 4px 0 0 #262626 !important; /* hover:shadow-[0_4px_0_0_#262626] */
+    background-color: #fb923c !important;
+    color: #262626 !important;
+}
+
+/* 호버 시 하이라이트 애니메이션 */
+.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled)::before,
+.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled)::before,
+.uk-button-link.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled)::before,
+a.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn):hover::before,
+a.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn):hover::before,
+button.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled)::before,
+button.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled)::before,
+input.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled)::before,
+input.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn):hover:not(:disabled)::before {
+    left: 200% !important; /* group-hover:left-[200%] */
+}
+
+/* 클릭/활성화 효과 */
+.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn):active:not(:disabled),
+.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn):active:not(:disabled),
+.uk-button-link.cartoon-btn-applied:not(.hero-cta-btn):active:not(:disabled),
+a.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn):active,
+a.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn):active,
+button.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn):active:not(:disabled),
+button.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn):active:not(:disabled),
+input.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn):active:not(:disabled),
+input.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn):active:not(:disabled) {
+    transform: translateY(0) !important; /* active:translate-y-0 */
+    box-shadow: none !important; /* active:shadow-none */
+    background-color: #fb923c !important;
+    color: #262626 !important;
+}
+
+/* 크기 변형 */
+.cartoon-btn-large.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn),
+.cartoon-btn-large.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn),
+.cartoon-btn-large.uk-button-link.cartoon-btn-applied:not(.hero-cta-btn),
+a.cartoon-btn-large.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn),
+a.cartoon-btn-large.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn),
+button.cartoon-btn-large.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn),
+button.cartoon-btn-large.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn),
+input.cartoon-btn-large.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn),
+input.cartoon-btn-large.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn) {
+    height: 56px !important;
+    padding: 0 32px !important;
+    font-size: 24px !important;
+    line-height: 56px !important;
+}
+
+.cartoon-btn-small.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn),
+.cartoon-btn-small.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn),
+.cartoon-btn-small.uk-button-link.cartoon-btn-applied:not(.hero-cta-btn),
+a.cartoon-btn-small.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn),
+a.cartoon-btn-small.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn),
+button.cartoon-btn-small.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn),
+button.cartoon-btn-small.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn),
+input.cartoon-btn-small.uk-button-danger.cartoon-btn-applied:not(.hero-cta-btn),
+input.cartoon-btn-small.uk-button-default.cartoon-btn-applied:not(.hero-cta-btn) {
+    height: 36px !important;
+    padding: 0 18px !important;
+    font-size: 16px !important;
+    line-height: 36px !important;
+}
+
+/* Hero Section 내부 버튼은 원래 스타일 유지 */
+.section-hero .uk-button,
+.hero-cta-btn,
+.section-hero__cta .uk-button,
+.section-hero .uk-button-danger,
+.section-hero .uk-button-default {
+    /* Hero Section 버튼은 원래 스타일 유지 - Cartoon Button 스타일 적용 안 함 */
+}
+
+.section-hero .cartoon-btn-applied,
+.hero-cta-btn.cartoon-btn-applied,
+.section-hero__cta .cartoon-btn-applied {
+    /* Hero Section 내부 버튼에는 Cartoon 스타일 적용 안 함 */
+    position: static !important;
+    height: auto !important;
+    padding: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    color: inherit !important;
+    border: inherit !important;
+    border-radius: inherit !important;
+    background-color: inherit !important;
+    transition: inherit !important;
+    overflow: visible !important;
+    white-space: inherit !important;
+    line-height: inherit !important;
+    box-shadow: inherit !important;
+}
+
+.section-hero .cartoon-btn-applied::before,
+.hero-cta-btn.cartoon-btn-applied::before,
+.section-hero__cta .cartoon-btn-applied::before {
+    display: none !important;
+    content: none !important;
+}

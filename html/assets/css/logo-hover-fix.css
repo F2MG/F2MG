@@ -1,0 +1,46 @@
+/* 로고 호버 시 아래 라인 효과 제거 */
+
+.page-header__logo .logo-text,
+.page-header__logo .logo-text:hover,
+.page-header__logo .logo-text:focus,
+.page-header__logo .logo-text:active {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    border: none !important;
+}
+
+.page-header__logo .logo-text::after,
+.page-header__logo .logo-text::before,
+.page-header__logo .logo-text:hover::after,
+.page-header__logo .logo-text:hover::before,
+.page-header__logo .logo-text:focus::after,
+.page-header__logo .logo-text:focus::before {
+    display: none !important;
+    content: none !important;
+    border: none !important;
+    border-bottom: none !important;
+    background: none !important;
+}
+
+.page-header__logo a,
+.page-header__logo a:hover,
+.page-header__logo a:focus,
+.page-header__logo a:active {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    border: none !important;
+}
+
+.page-header__logo a::after,
+.page-header__logo a::before,
+.page-header__logo a:hover::after,
+.page-header__logo a:hover::before,
+.page-header__logo a:focus::after,
+.page-header__logo a:focus::before {
+    display: none !important;
+    content: none !important;
+    border: none !important;
+    border-bottom: none !important;
+    background: none !important;
+}
+
