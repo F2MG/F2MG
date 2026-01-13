@@ -47,9 +47,18 @@
         }
     }
 
+    // 초기화 플래그 (중복 실행 방지)
+    let isInitializing = false;
+    let hasInitialized = false;
+
     // 페이지 로드 시 모든 버튼에 스타일 적용 (Hero Section 제외)
     function initCartoonButtons() {
-        console.log('Cartoon Button 스타일 적용 시작 (Hero Section 제외)...');
+        // 이미 초기화 중이면 스킵
+        if (isInitializing) {
+            return;
+        }
+        
+        isInitializing = true;
         
         // 모든 UIKit 버튼 찾기
         const allButtons = document.querySelectorAll('.uk-button-danger, .uk-button-default, .uk-button-link, .uk-button');
@@ -77,32 +86,38 @@
             appliedCount++;
         });
         
-        console.log('적용된 버튼 개수:', appliedCount);
+        if (appliedCount > 0 || !hasInitialized) {
+            console.log('Cartoon Button 스타일 적용 완료:', appliedCount, '개 버튼');
+            hasInitialized = true;
+        }
+        
+        isInitializing = false;
     }
 
-    // 즉시 실행
-    initCartoonButtons();
-    
-    // DOMContentLoaded 시 실행
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', function() {
-            setTimeout(initCartoonButtons, 100);
-            setTimeout(initCartoonButtons, 300);
-        });
-    } else {
-        setTimeout(initCartoonButtons, 100);
-        setTimeout(initCartoonButtons, 300);
+    // 초기화 함수 (한 번만 실행)
+    function initializeOnce() {
+        if (hasInitialized) return;
+        
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', function() {
+                setTimeout(initCartoonButtons, 200);
+            });
+        } else {
+            setTimeout(initCartoonButtons, 200);
+        }
+        
+        // window load 이벤트 (한 번만)
+        window.addEventListener('load', function() {
+            setTimeout(initCartoonButtons, 500);
+        }, { once: true });
     }
     
-    // UIkit이 DOM을 조작할 수 있으므로, UIkit 로드 후에도 다시 초기화 시도
-    window.addEventListener('load', function() {
-        setTimeout(initCartoonButtons, 100);
-        setTimeout(initCartoonButtons, 500);
-        setTimeout(initCartoonButtons, 1000);
-    });
+    // 초기화 실행
+    initializeOnce();
     
-    // MutationObserver로 DOM 변경 감지
+    // MutationObserver로 DOM 변경 감지 (디바운싱 적용)
     if (typeof MutationObserver !== 'undefined') {
+        let debounceTimer = null;
         const observer = new MutationObserver(function(mutations) {
             let shouldReinit = false;
             mutations.forEach(function(mutation) {
@@ -119,7 +134,11 @@
                 }
             });
             if (shouldReinit) {
-                setTimeout(initCartoonButtons, 100);
+                // 디바운싱: 300ms 내에 여러 변경이 있으면 마지막 것만 실행
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(function() {
+                    initCartoonButtons();
+                }, 300);
             }
         });
         
