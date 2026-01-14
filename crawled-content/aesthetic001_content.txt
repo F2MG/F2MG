@@ -1,0 +1,28 @@
+HTTP 오류 404.0 - Not Found
+찾고 있는 리소스가 제거되었거나, 이름이 바뀌었거나, 일시적으로 사용할 수 없는 상태입니다.
+가능성이 높은 원인:
+지정한 디렉터리 또는 파일이 웹 서버에 존재하지 않습니다.
+URL을 잘못 입력했습니다.
+URLScan 등의 사용자 지정 필터 또는 모듈에서 파일에 대한 액세스를 제한합니다.
+가능한 해결 방법:
+웹 서버에서 콘텐츠를 만드십시오.
+브라우저 URL을 검토해 보십시오.
+실패한 요청에서 이 HTTP 상태 코드를 추적하는 추적 규칙을 만드십시오. 실패한 요청에 대한 추적 규칙을 만드는 방법을 자세하게 보려면
+를 클릭하십시오.
+자세한 오류 정보:
+IIS Web Core
+MapRequestHandler
+ASPClassic
+오류 코드
+0x80070002
+요청한 URL
+https://www.allthat-beauty.com:443/web/2022/curriculum/aesthetic/aesthetic001.asp
+실제 경로
+\\10.13.53.117\contents\WebRoot\AllthatBeauty\web\2022\curriculum\aesthetic\aesthetic001.asp
+로그온 방법d
+로그온 사용자
+요청 추적 디렉터리
+C:\inetpub\logs\FailedReqLogFiles
+추가 정보:
+이 오류는 파일이나 디렉터리가 서버에 존재하지 않는다는 것을 의미합니다. 파일이나 디렉터리를 만든 다음 다시 요청해 보십시오.
+기타 정보 보기 »

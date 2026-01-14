@@ -19,146 +19,119 @@
     <link rel="stylesheet" href="../assets/css/cartoon-button.css">
     <link rel="stylesheet" href="../assets/css/footer-lune-style.css">
     <link rel="stylesheet" href="../assets/css/offcanvas-menu-custom.css">
+    
     <style>
-        .page-main {
-            padding: 80px 20px;
-            max-width: 1200px;
-            margin: 0 auto;
+        .teacher-grid, .info-grid, .facility-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
         }
-        .course-header {
+        .teacher-card, .info-card, .facility-item {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .teacher-card:hover, .info-card:hover, .facility-item:hover {
+            transform: translateY(-5px);
+        }
+        .teacher-info h4, .info-card h4, .facility-item h4 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #222;
+        }
+        .teacher-specialty, .info-subtitle {
+            color: #EB5A31;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        .stats-grid, .achievements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .stat-item, .achievement-item {
             text-align: center;
-            margin-bottom: 60px;
+            padding: 30px;
+            background: linear-gradient(135deg, #f5f0e8 0%, #fff 100%);
+            border-radius: 12px;
         }
-        .course-header h1 {
+        .stat-number, .achievement-number {
             font-size: 48px;
             font-weight: 700;
-            margin-bottom: 20px;
-            color: #222;
+            color: #EB5A31;
+            margin-bottom: 10px;
         }
-        .course-header h2 {
-            font-size: 32px;
-            font-weight: 500;
+        .stat-label, .achievement-label {
+            font-size: 16px;
             color: #666;
-            margin-bottom: 30px;
         }
-        .course-intro {
-            font-size: 18px;
-            line-height: 1.8;
-            color: #444;
-            margin-bottom: 60px;
-            text-align: center;
+        .location-info, .transport-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
         }
-        .course-section {
-            margin-bottom: 60px;
-        }
-        .course-section h3 {
-            font-size: 28px;
-            font-weight: 600;
-            margin-bottom: 30px;
-            color: #222;
-            border-bottom: 2px solid #EB5A31;
-            padding-bottom: 10px;
-        }
-        .course-info {
+        .location-item, .transport-item {
             background: #f8f8f8;
             padding: 30px;
             border-radius: 8px;
-            margin-bottom: 40px;
         }
-        .course-info h4 {
+        .location-item h4, .transport-item h4 {
             font-size: 20px;
             font-weight: 600;
             margin-bottom: 15px;
             color: #222;
         }
-        .course-info ul {
-            list-style: none;
-            padding: 0;
-        }
-        .course-info ul li {
-            padding: 8px 0;
-            padding-left: 20px;
+        .history-timeline {
             position: relative;
-            color: #444;
+            padding-left: 40px;
         }
-        .course-info ul li:before {
-            content: "·";
+        .history-timeline::before {
+            content: '';
             position: absolute;
-            left: 0;
-            font-weight: bold;
-            color: #EB5A31;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #EB5A31;
         }
-        .curriculum-table {
-            width: 100%;
-            border-collapse: collapse;
+        .timeline-item {
+            position: relative;
             margin-bottom: 40px;
         }
-        .curriculum-table th,
-        .curriculum-table td {
-            padding: 15px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        .curriculum-table th {
+        .timeline-year {
+            position: absolute;
+            left: -50px;
+            top: 0;
+            width: 40px;
+            height: 40px;
             background: #EB5A31;
             color: #fff;
-            font-weight: 600;
-        }
-        .curriculum-table tr:hover {
-            background: #f8f8f8;
-        }
-        .special-features {
-            background: linear-gradient(135deg, #f5f0e8 0%, #fff 100%);
-            padding: 40px;
-            border-radius: 8px;
-            margin-bottom: 40px;
-        }
-        .special-features h3 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .features-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        .feature-item {
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        .feature-item strong {
-            color: #EB5A31;
-            display: block;
-            margin-bottom: 10px;
-        }
-        .pass-rate-section {
-            margin-bottom: 60px;
-        }
-        .pass-rate-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 30px;
-        }
-        .pass-rate-table th,
-        .pass-rate-table td {
-            padding: 12px;
-            text-align: center;
-            border: 1px solid #ddd;
-        }
-        .pass-rate-table th {
-            background: #222;
-            color: #fff;
-        }
-        .pass-rate-table tr:nth-child(even) {
-            background: #f8f8f8;
-        }
-        .pass-rate-highlight {
-            color: #EB5A31;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             font-weight: 700;
+            font-size: 14px;
+        }
+        .timeline-content {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .timeline-content h4 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #222;
         }
     </style>
+
 </head>
 
 <body class="page-home">
@@ -166,6 +139,7 @@
     <!-- Loader-->
     <div id="page-preloader"><span class="spinner border-t_second_b border-t_prim_a"></span></div>
     <!-- Loader end-->
+
 
     <div class="page-wrapper">
         <header class="page-header">
@@ -190,16 +164,16 @@
                             <li><a href="../hair/hair001.html">헤어</a>
                                 <div class="uk-navbar-dropdown">
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li><a href="../hair.html#national-certificate">미용국가자격증</a></li>
-                                        <li><a href="../hair.html#barber-certificate">이용국가자격증</a></li>
-                                        <li><a href="../hair.html#practical">커트실무</a></li>
-                                        <li><a href="../hair.html#upstyle">업스타일</a></li>
-                                        <li><a href="../hair.html#cut">헤어커트</a></li>
-                                        <li><a href="../hair.html#broadcast">방송스타일링</a></li>
-                                        <li><a href="../hair.html#director">커트디렉터</a></li>
-                                        <li><a href="../hair.html#scalp">두피관리</a></li>
-                                        <li><a href="../hair.html#head-spa">헤드스파</a></li>
-                                        <li><a href="../hair.html#competition">헤어대회반</a></li>
+                                        <li><a href="../hair/hair001.html">미용국가자격증</a></li>
+                                        <li><a href="../hair/hair002.html">이용국가자격증</a></li>
+                                        <li><a href="../hair/hair003.html">커트실무</a></li>
+                                        <li><a href="../hair/hair004.html">업스타일</a></li>
+                                        <li><a href="../hair/hair005.html">헤어커트</a></li>
+                                        <li><a href="../hair/hair006.html">방송스타일링</a></li>
+                                        <li><a href="../hair/hair007.html">커트디렉터</a></li>
+                                        <li><a href="../hair/hair008.html">두피관리</a></li>
+                                        <li><a href="../hair/hair009.html">헤드스파</a></li>
+                                        <li><a href="../hair/hair010.html">헤어대회반</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -259,7 +233,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="../f2mg/f2mg001.html">F2MG</a>
+                            <li><a href="f2mg001.html">F2MG</a>
                                 <div class="uk-navbar-dropdown">
                                     <ul class="uk-nav uk-navbar-dropdown-nav">
                                         <li><a href="f2mg001.html">프리미엄강사진</a></li>
@@ -313,95 +287,65 @@
             </div>
         </header>
         
+        
         <!-- PAGE CONTENT START -->
         <main class="page-main">
+            
             <div class="course-header">
-        <h1>F2mg</h1>
-        <h2>아카데미소개</h2>
-    </div>
+                <h1>아카데미소개</h1>
+                <p class="course-intro">
+                    F2MG는 '사람을 디자인하다'는 교육철학으로<br>
+                    최고의 뷰티 전문가를 양성합니다.
+                </p>
+            </div>
 
-    <div class="course-intro">
-        <p>F2MG에서 제공하는 아카데미소개 전문 교육 과정입니다.</p>
-    </div>
-
-    <div class="course-section">
-        <h3>과정안내</h3>
-        <div class="course-info">
-            <h4>주요내용</h4>
-            <p>F2MG에서 제공하는 아카데미소개 전문 교육 과정입니다.</p>
-        </div>
-        <div class="course-info">
-            <h4>취득자격증&수료</h4>
-            <p>관련 자격증 및 수료증</p>
-        </div>
-        <div class="course-info">
-            <h4>진출분야</h4>
-            <ul>
-                <li>전문 뷰티살롱</li>
-                <li>교육 강사</li>
-                <li>프리랜서</li>
-                <li>창업</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="course-section">
-        <h3>커리큘럼</h3>
-        <table class="curriculum-table">
-            <thead>
-                <tr>
-                    <th>기간</th>
-                    <th>교육내용</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>1개월</strong></td>
-                    <td>기초 이론 및 기본 기법 학습</td>
-                </tr>
-                <tr>
-                    <td><strong>2개월</strong></td>
-                    <td>실기 실습 및 응용 기법</td>
-                </tr>
-                <tr>
-                    <td><strong>3개월</strong></td>
-                    <td>고급 기법 및 디자인 실습</td>
-                </tr>
-                <tr>
-                    <td><strong>4개월</strong></td>
-                    <td>포트폴리오 제작 및 실전 대비</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="course-section">
-        <div class="special-features">
-            <h3>오직 F2MG에서만 누릴 수 있는 특별함</h3>
-            <div class="features-list">
-                <div class="feature-item">
-                    <strong>01.</strong>
-                    <p>F2MG만의 스마트어플을 활용한 수강 실습 관리</p>
-                </div>
-                <div class="feature-item">
-                    <strong>02.</strong>
-                    <p>최신화된 온라인 수업으로 예습 및 복습 무료 지원</p>
-                </div>
-                <div class="feature-item">
-                    <strong>03.</strong>
-                    <p>트렌디한 세미나/특강/실습 매월 지원</p>
-                </div>
-                <div class="feature-item">
-                    <strong>04.</strong>
-                    <p>전국 평균보다 약 2배 이상 높은 합격률</p>
-                </div>
-                <div class="feature-item">
-                    <strong>05.</strong>
-                    <p>지역 내 최적의 입지, 200평 이상의 최적의 교육환경</p>
+            <div class="course-section">
+                <h3>교육특징</h3>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h4>Another Level</h4>
+                        <p class="info-subtitle">클래스가 다른 교육수준</p>
+                        <ul>
+                            <li>학사관리 및 강사와 개별 멘토 이원 관리체제</li>
+                            <li>실무 및 교육 경험 풍부한 업계 최고 강사진</li>
+                            <li>학생의 개성과 특징을 살려 세분화하는 레벨 향상 프로그램</li>
+                            <li>해외 기술교류 등을 통한 다양한 초청 세미나, 국제대회 참여</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h4>Consulting</h4>
+                        <p class="info-subtitle">취업에서 창업까지 컨설팅</p>
+                        <ul>
+                            <li>현장과 동일한 교육시설과 면접에 필요한 개인별 이력서 교정</li>
+                            <li>모의 면접등의 컨설팅 진행</li>
+                            <li>인턴쉽 제도를 통해 차별화된 인재양성</li>
+                            <li>방송사, 영화제작사, 전문 뷰티샵 협력을 통해 취업 네트워크 구축</li>
+                            <li>상시 취업과 창업에 대한 상담이 가능한 취업지원센터 운영</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h4>Education</h4>
+                        <p class="info-subtitle">높은 수준의 교육환경</p>
+                        <ul>
+                            <li>전국지점 역세권 도보 5분거리 위치</li>
+                            <li>전국지점 평균 200평 이상 규모와 수 많은 강의장 보유</li>
+                            <li>원내 토탈샵 및 토탈클래스 운영하여 자습 및 실습 환경조성</li>
+                            <li>최첨단 기자재구비 완료</li>
+                            <li>체계적인 학사관리 프로세스 운영</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h4>Facilities</h4>
+                        <p class="info-subtitle">차별화된 교육 시스템</p>
+                        <ul>
+                            <li>4대 학과 실무 과정, 창업 과정, 단과 과정 전문적인 운영</li>
+                            <li>전문 입시 컨설팅 및 스페셜리스트을 위한 특수과정 운영</li>
+                            <li>연계 산학 프로젝트, 업체 실습, 행사 지원 등 실무능력 습득</li>
+                            <li>아티스트 및 교수진 초청 무료 특강 및 세미나 진행</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
         </main>
         <!-- PAGE CONTENT END -->
 
@@ -442,7 +386,7 @@
                             <li><a href="../special-course/special-course001.html">스페셜과정</a></li>
                             <li><a href="../beauty-admission-center/beauty-admission-center001.html">뷰티입시센터</a></li>
                             <li><a href="../aptus-story/aptus-story001.html">엡투스토리</a></li>
-                            <li><a href="../f2mg/f2mg001.html">F2MG</a></li>
+                            <li><a href="f2mg001.html">F2MG</a></li>
                             <li><a href="../government-support/government-support001.html">국가지원제도</a></li>
                             <li><a href="../customer-center/customer-center001.html">고객상담센터</a></li>
                             <li><a href="../community/community001.html">커뮤니티</a></li>
@@ -508,7 +452,7 @@
                             </li>
                             <li><a href="../nail/nail001.html">네일아트</a>
                                 <ul class="uk-nav-sub">
-                                    <li><a href="../aesthetic/aesthetic001.html">국가자격증</a></li>
+                                    <li><a href="../nail/nail001.html">국가자격증</a></li>
                                     <li><a href="../nail/nail002.html">네일창업실무</a></li>
                                     <li><a href="../nail/nail003.html">업테이크디자인</a></li>
                                     <li><a href="../nail/nail004.html">젤아트</a></li>
@@ -552,7 +496,7 @@
                                     <li><a href="../aptus-story/aptus-story005.html">창업전문과정</a></li>
                                 </ul>
                             </li>
-                            <li><a href="../f2mg/f2mg001.html">F2MG</a>
+                            <li><a href="f2mg001.html">F2MG</a>
                                 <ul class="uk-nav-sub">
                                     <li><a href="f2mg001.html">프리미엄강사진</a></li>
                                     <li><a href="f2mg002.html">아카데미소개</a></li>
@@ -611,6 +555,7 @@
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/cartoon-button.js"></script>
     <script src="../assets/js/offcanvas-menu-toggle.js"></script>
+    <!-- PAGE SPECIFIC JS -->
 </body>
 
 </html>
