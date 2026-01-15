@@ -2700,16 +2700,16 @@ footer .social li a:hover {
 }
 
 .logo-text .logo-main .logo-number {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 700;
     vertical-align: baseline;
     display: inline;
-    line-height: 0.7;
+    line-height: 1;
     font-family: 'Cormorant', serif;
-    letter-spacing: 0;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     position: relative;
-    top: -5px;
+    top: 0;
 }
 
 .logo-text .logo-sub {
@@ -7470,9 +7470,11 @@ body.page-about .slider-first-screen {
     }
     
     .logo-text .logo-main .logo-number {
-        font-size: 50px;
-        transform: scaleY(0.83);
-        transform-origin: bottom;
+        font-size: 42px;
+        transform: none;
+        transform-origin: baseline;
+        line-height: 1;
+        top: 0;
     }
     
     .sitemap-btn {
@@ -7501,9 +7503,9 @@ body.page-about .slider-first-screen {
     }
     
     .logo-text .logo-main .logo-number {
-        font-size: 53px;
-        line-height: 0.7;
-        top: -3px;
+        font-size: 38px;
+        line-height: 1;
+        top: 0;
     }
     
     .logo-text .logo-sub {
@@ -7536,9 +7538,9 @@ body.page-about .slider-first-screen {
     }
     
     .logo-text .logo-main .logo-number {
-        font-size: 50px;
-        line-height: 0.7;
-        top: -3px;
+        font-size: 36px;
+        line-height: 1;
+        top: 0;
     }
     
     .logo-text .logo-sub {
@@ -7575,9 +7577,9 @@ body.page-about .slider-first-screen {
     }
     
     .logo-text .logo-main .logo-number {
-        font-size: 45px;
-        line-height: 0.7;
-        top: -2px;
+        font-size: 32px;
+        line-height: 1;
+        top: 0;
     }
     
     .logo-text .logo-sub {
@@ -7662,9 +7664,9 @@ body.page-about .slider-first-screen {
     }
     
     .logo-text .logo-main .logo-number {
-        font-size: 39px;
-        line-height: 0.7;
-        top: -2px;
+        font-size: 28px;
+        line-height: 1;
+        top: 0;
     }
     
     .logo-text .logo-sub {
@@ -7963,9 +7965,9 @@ body.page-about .slider-first-screen {
     }
     
     .logo-text .logo-main .logo-number {
-        font-size: 34px;
-        line-height: 0.7;
-        top: -2px;
+        font-size: 24px;
+        line-height: 1;
+        top: 0;
     }
     
     .logo-text .logo-sub {
@@ -8017,9 +8019,9 @@ body.page-about .slider-first-screen {
     }
     
     .logo-text .logo-main .logo-number {
-        font-size: 28px;
-        line-height: 0.7;
-        top: -1px;
+        font-size: 20px;
+        line-height: 1;
+        top: 0;
     }
     
     .logo-text .logo-sub {
