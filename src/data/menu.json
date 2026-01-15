@@ -1,0 +1,412 @@
+{
+  "items": [
+    {
+      "label": "메이크업",
+      "slug": "makeup",
+      "url": "/makeup",
+      "children": [
+        {
+          "label": "국가자격증",
+          "slug": "makeup-national-certificate",
+          "url": "/makeup/national-certificate"
+        },
+        {
+          "label": "공연분장사",
+          "slug": "makeup-performance-makeup",
+          "url": "/makeup/performance-makeup"
+        },
+        {
+          "label": "특수분장",
+          "slug": "makeup-special-effects",
+          "url": "/makeup/special-effects"
+        },
+        {
+          "label": "에어브러쉬",
+          "slug": "makeup-airbrush",
+          "url": "/makeup/airbrush"
+        },
+        {
+          "label": "플라잉아티스트",
+          "slug": "makeup-flying-artist",
+          "url": "/makeup/flying-artist"
+        },
+        {
+          "label": "바디페인팅",
+          "slug": "makeup-body-painting",
+          "url": "/makeup/body-painting"
+        },
+        {
+          "label": "메이크업대회반",
+          "slug": "makeup-competition",
+          "url": "/makeup/competition"
+        }
+      ]
+    },
+    {
+      "label": "헤어",
+      "slug": "hair",
+      "url": "/hair",
+      "children": [
+        {
+          "label": "미용국가자격증",
+          "slug": "hair-beauty-certificate",
+          "url": "/hair/beauty-certificate"
+        },
+        {
+          "label": "이용국가자격증",
+          "slug": "hair-licensing-certificate",
+          "url": "/hair/licensing-certificate"
+        },
+        {
+          "label": "커트실무",
+          "slug": "hair-cut-practice",
+          "url": "/hair/cut-practice"
+        },
+        {
+          "label": "업스타일",
+          "slug": "hair-upstyle",
+          "url": "/hair/upstyle"
+        },
+        {
+          "label": "헤어커트",
+          "slug": "hair-cut",
+          "url": "/hair/cut"
+        },
+        {
+          "label": "방송스타일링",
+          "slug": "hair-broadcast-styling",
+          "url": "/hair/broadcast-styling"
+        },
+        {
+          "label": "커트디렉터",
+          "slug": "hair-cut-director",
+          "url": "/hair/cut-director"
+        },
+        {
+          "label": "두피관리",
+          "slug": "hair-scalp-care",
+          "url": "/hair/scalp-care"
+        },
+        {
+          "label": "헤드스파",
+          "slug": "hair-head-spa",
+          "url": "/hair/head-spa"
+        },
+        {
+          "label": "헤어대회반",
+          "slug": "hair-competition",
+          "url": "/hair/competition"
+        }
+      ]
+    },
+    {
+      "label": "네일아트",
+      "slug": "nail-art",
+      "url": "/nail-art",
+      "children": [
+        {
+          "label": "국가자격증",
+          "slug": "nail-national-certificate",
+          "url": "/nail-art/national-certificate"
+        },
+        {
+          "label": "네일창업실무",
+          "slug": "nail-startup-practice",
+          "url": "/nail-art/startup-practice"
+        },
+        {
+          "label": "업테이크디자인",
+          "slug": "nail-uptake-design",
+          "url": "/nail-art/uptake-design"
+        },
+        {
+          "label": "젤아트",
+          "slug": "nail-gel-art",
+          "url": "/nail-art/gel-art"
+        },
+        {
+          "label": "드릴케어",
+          "slug": "nail-drill-care",
+          "url": "/nail-art/drill-care"
+        }
+      ]
+    },
+    {
+      "label": "에스테틱",
+      "slug": "aesthetic",
+      "url": "/aesthetic",
+      "children": [
+        {
+          "label": "국가자격증",
+          "slug": "aesthetic-national-certificate",
+          "url": "/aesthetic/national-certificate"
+        },
+        {
+          "label": "에스테틱실무",
+          "slug": "aesthetic-practice",
+          "url": "/aesthetic/practice"
+        },
+        {
+          "label": "온콜로지에스테틱",
+          "slug": "aesthetic-oncology",
+          "url": "/aesthetic/oncology"
+        },
+        {
+          "label": "왁싱전문가",
+          "slug": "aesthetic-waxing-specialist",
+          "url": "/aesthetic/waxing-specialist"
+        },
+        {
+          "label": "에스테틱전문가",
+          "slug": "aesthetic-specialist",
+          "url": "/aesthetic/specialist"
+        }
+      ]
+    },
+    {
+      "label": "스페셜과정",
+      "slug": "special-course",
+      "url": "/special-course",
+      "children": [
+        {
+          "label": "퍼스널컬러",
+          "slug": "special-personal-color",
+          "url": "/special-course/personal-color"
+        },
+        {
+          "label": "속눈썹연장",
+          "slug": "special-eyelash-extension",
+          "url": "/special-course/eyelash-extension"
+        },
+        {
+          "label": "뷰티전문가",
+          "slug": "special-beauty-specialist",
+          "url": "/special-course/beauty-specialist"
+        },
+        {
+          "label": "테라피스트",
+          "slug": "special-therapist",
+          "url": "/special-course/therapist"
+        },
+        {
+          "label": "스타일리스트",
+          "slug": "special-stylist",
+          "url": "/special-course/stylist"
+        },
+        {
+          "label": "샵마스터",
+          "slug": "special-shop-master",
+          "url": "/special-course/shop-master"
+        }
+      ]
+    },
+    {
+      "label": "뷰티입시센터",
+      "slug": "beauty-admission-center",
+      "url": "/beauty-admission-center",
+      "children": [
+        {
+          "label": "입시전략 WHY?",
+          "slug": "admission-strategy-why",
+          "url": "/beauty-admission-center/strategy-why"
+        },
+        {
+          "label": "입시준비과정",
+          "slug": "admission-preparation",
+          "url": "/beauty-admission-center/preparation"
+        },
+        {
+          "label": "입시데이터",
+          "slug": "admission-data",
+          "url": "/beauty-admission-center/data"
+        },
+        {
+          "label": "대학별모집요강",
+          "slug": "admission-university-guidelines",
+          "url": "/beauty-admission-center/university-guidelines"
+        },
+        {
+          "label": "합격후기",
+          "slug": "admission-success-stories",
+          "url": "/beauty-admission-center/success-stories"
+        }
+      ]
+    },
+    {
+      "label": "엡투스토리",
+      "slug": "aptus-story",
+      "url": "/aptus-story",
+      "children": [
+        {
+          "label": "성공스토리",
+          "slug": "aptus-success-story",
+          "url": "/aptus-story/success-story"
+        },
+        {
+          "label": "자격증합격후기",
+          "slug": "aptus-certificate-reviews",
+          "url": "/aptus-story/certificate-reviews"
+        },
+        {
+          "label": "자격증일정",
+          "slug": "aptus-certificate-schedule",
+          "url": "/aptus-story/certificate-schedule"
+        },
+        {
+          "label": "취업전문과정",
+          "slug": "aptus-employment-course",
+          "url": "/aptus-story/employment-course"
+        },
+        {
+          "label": "창업전문과정",
+          "slug": "aptus-startup-course",
+          "url": "/aptus-story/startup-course"
+        }
+      ]
+    },
+    {
+      "label": "F2MG",
+      "slug": "f2mg",
+      "url": "/f2mg",
+      "children": [
+        {
+          "label": "프리미엄강사진",
+          "slug": "f2mg-premium-instructors",
+          "url": "/f2mg/premium-instructors"
+        },
+        {
+          "label": "아카데미소개",
+          "slug": "f2mg-academy-intro",
+          "url": "/f2mg/academy-intro"
+        },
+        {
+          "label": "교육시설안내",
+          "slug": "f2mg-facilities",
+          "url": "/f2mg/facilities"
+        },
+        {
+          "label": "오시는길",
+          "slug": "f2mg-location",
+          "url": "/f2mg/location"
+        },
+        {
+          "label": "연혁",
+          "slug": "f2mg-history",
+          "url": "/f2mg/history"
+        },
+        {
+          "label": "청담캠퍼스",
+          "slug": "f2mg-cheongdam-campus",
+          "url": "/f2mg/cheongdam-campus"
+        },
+        {
+          "label": "노원캠퍼스",
+          "slug": "f2mg-nowon-campus",
+          "url": "/f2mg/nowon-campus"
+        },
+        {
+          "label": "광주캠퍼스",
+          "slug": "f2mg-gwangju-campus",
+          "url": "/f2mg/gwangju-campus"
+        },
+        {
+          "label": "디오창업센터",
+          "slug": "f2mg-dio-startup-center",
+          "url": "/f2mg/dio-startup-center"
+        }
+      ]
+    },
+    {
+      "label": "국가지원제도",
+      "slug": "government-support",
+      "url": "/government-support",
+      "children": [
+        {
+          "label": "최대 100% 수강료 지원",
+          "slug": "support-100-percent",
+          "url": "/government-support/100-percent"
+        },
+        {
+          "label": "국민취업제도",
+          "slug": "support-employment-system",
+          "url": "/government-support/employment-system"
+        }
+      ]
+    },
+    {
+      "label": "고객상담센터",
+      "slug": "customer-center",
+      "url": "/customer-center",
+      "children": [
+        {
+          "label": "수강료조회",
+          "slug": "center-tuition-inquiry",
+          "url": "/customer-center/tuition-inquiry"
+        },
+        {
+          "label": "실시간상담예약",
+          "slug": "center-realtime-consultation",
+          "url": "/customer-center/realtime-consultation"
+        },
+        {
+          "label": "위치조회",
+          "slug": "center-location-inquiry",
+          "url": "/customer-center/location-inquiry"
+        },
+        {
+          "label": "온라인상담신청",
+          "slug": "center-online-consultation",
+          "url": "/customer-center/online-consultation"
+        },
+        {
+          "label": "카톡상담",
+          "slug": "center-kakao-consultation",
+          "url": "/customer-center/kakao-consultation"
+        },
+        {
+          "label": "시간표조회",
+          "slug": "center-schedule-inquiry",
+          "url": "/customer-center/schedule-inquiry"
+        }
+      ]
+    },
+    {
+      "label": "커뮤니티",
+      "slug": "community",
+      "url": "/community",
+      "children": [
+        {
+          "label": "공지사항",
+          "slug": "community-notice",
+          "url": "/community/notice"
+        },
+        {
+          "label": "현장스토리",
+          "slug": "community-field-story",
+          "url": "/community/field-story"
+        },
+        {
+          "label": "수강생인터뷰",
+          "slug": "community-student-interview",
+          "url": "/community/student-interview"
+        },
+        {
+          "label": "수강생리얼후기",
+          "slug": "community-student-reviews",
+          "url": "/community/student-reviews"
+        },
+        {
+          "label": "합격현황(입시/취업/창업)",
+          "slug": "community-success-status",
+          "url": "/community/success-status"
+        },
+        {
+          "label": "LIVE EVENT",
+          "slug": "community-live-event",
+          "url": "/community/live-event"
+        }
+      ]
+    }
+  ]
+}
+

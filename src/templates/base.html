@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}F2MG GLOBAL BEAUTY ACADEMY{% endblock %}</title>
+    <meta content="F2MG" name="author">
+    <meta content="F2MG GLOBAL BEAUTY ACADEMY" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="format-detection" content="telephone=no">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/libs.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/hero-custom.css">
+    {% block extra_css %}{% endblock %}
+</head>
+
+<body class="{% block body_class %}page-home{% endblock %}">
+    <!-- Loader-->
+    <div id="page-preloader">
+        <span class="spinner border-t_second_b border-t_prim_a"></span>
+    </div>
+    <!-- Loader end-->
+
+    <div class="page-wrapper">
+        {% include "partials/header.html" %}
+        
+        <main class="page-main">
+            {% block content %}{% endblock %}
+        </main>
+        
+        {% include "partials/footer.html" %}
+    </div>
+    
+    <script src="assets/js/libs.js"></script>
+    <script src="assets/js/main.js"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
+

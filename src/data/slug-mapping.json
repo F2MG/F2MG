@@ -1,0 +1,199 @@
+{
+  "description": "URL slug 매핑표 - 메뉴 항목과 파일명 매핑",
+  "mapping": {
+    "home": {
+      "slug": "index",
+      "file": "index.html",
+      "label": "홈",
+      "url": "/"
+    },
+    "makeup": {
+      "slug": "makeup",
+      "file": "makeup.html",
+      "label": "메이크업",
+      "url": "/makeup",
+      "children": {
+        "makeup-national-certificate": {
+          "slug": "makeup-national-certificate",
+          "file": "makeup/national-certificate.html",
+          "label": "국가자격증",
+          "url": "/makeup/national-certificate"
+        },
+        "makeup-performance-makeup": {
+          "slug": "makeup-performance-makeup",
+          "file": "makeup/performance-makeup.html",
+          "label": "공연분장사",
+          "url": "/makeup/performance-makeup"
+        },
+        "makeup-special-effects": {
+          "slug": "makeup-special-effects",
+          "file": "makeup/special-effects.html",
+          "label": "특수분장",
+          "url": "/makeup/special-effects"
+        },
+        "makeup-airbrush": {
+          "slug": "makeup-airbrush",
+          "file": "makeup/airbrush.html",
+          "label": "에어브러쉬",
+          "url": "/makeup/airbrush"
+        },
+        "makeup-flying-artist": {
+          "slug": "makeup-flying-artist",
+          "file": "makeup/flying-artist.html",
+          "label": "플라잉아티스트",
+          "url": "/makeup/flying-artist"
+        },
+        "makeup-body-painting": {
+          "slug": "makeup-body-painting",
+          "file": "makeup/body-painting.html",
+          "label": "바디페인팅",
+          "url": "/makeup/body-painting"
+        },
+        "makeup-competition": {
+          "slug": "makeup-competition",
+          "file": "makeup/competition.html",
+          "label": "메이크업대회반",
+          "url": "/makeup/competition"
+        }
+      }
+    },
+    "hair": {
+      "slug": "hair",
+      "file": "hair.html",
+      "label": "헤어",
+      "url": "/hair",
+      "children": {
+        "hair-beauty-certificate": {
+          "slug": "hair-beauty-certificate",
+          "file": "hair/beauty-certificate.html",
+          "label": "미용국가자격증",
+          "url": "/hair/beauty-certificate"
+        },
+        "hair-licensing-certificate": {
+          "slug": "hair-licensing-certificate",
+          "file": "hair/licensing-certificate.html",
+          "label": "이용국가자격증",
+          "url": "/hair/licensing-certificate"
+        },
+        "hair-cut-practice": {
+          "slug": "hair-cut-practice",
+          "file": "hair/cut-practice.html",
+          "label": "커트실무",
+          "url": "/hair/cut-practice"
+        },
+        "hair-upstyle": {
+          "slug": "hair-upstyle",
+          "file": "hair/upstyle.html",
+          "label": "업스타일",
+          "url": "/hair/upstyle"
+        },
+        "hair-cut": {
+          "slug": "hair-cut",
+          "file": "hair/cut.html",
+          "label": "헤어커트",
+          "url": "/hair/cut"
+        },
+        "hair-broadcast-styling": {
+          "slug": "hair-broadcast-styling",
+          "file": "hair/broadcast-styling.html",
+          "label": "방송스타일링",
+          "url": "/hair/broadcast-styling"
+        },
+        "hair-cut-director": {
+          "slug": "hair-cut-director",
+          "file": "hair/cut-director.html",
+          "label": "커트디렉터",
+          "url": "/hair/cut-director"
+        },
+        "hair-scalp-care": {
+          "slug": "hair-scalp-care",
+          "file": "hair/scalp-care.html",
+          "label": "두피관리",
+          "url": "/hair/scalp-care"
+        },
+        "hair-head-spa": {
+          "slug": "hair-head-spa",
+          "file": "hair/head-spa.html",
+          "label": "헤드스파",
+          "url": "/hair/head-spa"
+        },
+        "hair-competition": {
+          "slug": "hair-competition",
+          "file": "hair/competition.html",
+          "label": "헤어대회반",
+          "url": "/hair/competition"
+        }
+      }
+    },
+    "nail-art": {
+      "slug": "nail-art",
+      "file": "nail-art.html",
+      "label": "네일아트",
+      "url": "/nail-art"
+    },
+    "aesthetic": {
+      "slug": "aesthetic",
+      "file": "aesthetic.html",
+      "label": "에스테틱",
+      "url": "/aesthetic"
+    },
+    "special-course": {
+      "slug": "special-course",
+      "file": "special-course.html",
+      "label": "스페셜과정",
+      "url": "/special-course"
+    },
+    "beauty-admission-center": {
+      "slug": "beauty-admission-center",
+      "file": "beauty-admission-center.html",
+      "label": "뷰티입시센터",
+      "url": "/beauty-admission-center"
+    },
+    "aptus-story": {
+      "slug": "aptus-story",
+      "file": "aptus-story.html",
+      "label": "엡투스토리",
+      "url": "/aptus-story"
+    },
+    "f2mg": {
+      "slug": "f2mg",
+      "file": "f2mg.html",
+      "label": "F2MG",
+      "url": "/f2mg"
+    },
+    "government-support": {
+      "slug": "government-support",
+      "file": "government-support.html",
+      "label": "국가지원제도",
+      "url": "/government-support"
+    },
+    "customer-center": {
+      "slug": "customer-center",
+      "file": "customer-center.html",
+      "label": "고객상담센터",
+      "url": "/customer-center"
+    },
+    "community": {
+      "slug": "community",
+      "file": "community.html",
+      "label": "커뮤니티",
+      "url": "/community"
+    }
+  },
+  "legacy_mapping": {
+    "01_home-cosmetic.html": "index.html",
+    "02_shop.html": "shop.html",
+    "03_product.html": "product.html",
+    "04_blog-main.html": "blog.html",
+    "05_blog-post.html": "blog/post.html",
+    "06_contact.html": "contact.html",
+    "07_shop-default.html": "shop-default.html",
+    "08_product-default.html": "product-default.html",
+    "09_login.html": "login.html",
+    "10_reset-password.html": "reset-password.html",
+    "11_blog-post-new.html": "blog/post-new.html",
+    "12_about.html": "about.html",
+    "13_shop-grid.html": "shop-grid.html"
+  }
+}
+

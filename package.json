@@ -1,0 +1,25 @@
+{
+  "name": "f2mg-static-site",
+  "version": "1.0.0",
+  "description": "F2MG Global Beauty Academy - Static HTML Site with Nunjucks Templates",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js --watch",
+    "serve": "cd dist && python3 -m http.server 8000"
+  },
+  "keywords": [
+    "static-site",
+    "nunjucks",
+    "template"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nunjucks": "^3.2.4"
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.3"
+  }
+}
+

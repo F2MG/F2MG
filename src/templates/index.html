@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block title %}Home page - F2MG GLOBAL BEAUTY ACADEMY{% endblock %}
+
+{% block body_class %}page-home{% endblock %}
+
+{% block content %}
+<div class="section-hero section-home">
+    <div class="section-hero__inner">
+        <div class="section-hero__bg-slider">
+            <div class="swiper-container hero-bg-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" data-slide-index="0">
+                        <div class="section-hero__bg"><img src="assets/img/home-hero.jpg" alt="hero-slide-1"></div>
+                    </div>
+                    <div class="swiper-slide" data-slide-index="1">
+                        <div class="section-hero__bg"><img src="assets/img/home-hero2.png" alt="hero-slide-2"></div>
+                    </div>
+                    <div class="swiper-slide" data-slide-index="2">
+                        <div class="section-hero__bg"><img src="assets/img/home-hero3.png" alt="hero-slide-3"></div>
+                    </div>
+                    <div class="swiper-slide" data-slide-index="3">
+                        <div class="section-hero__bg"><img src="assets/img/home-hero4.png" alt="hero-slide-4"></div>
+                    </div>
+                    <div class="swiper-slide" data-slide-index="4">
+                        <div class="section-hero__bg"><img src="assets/img/home-hero5.png" alt="hero-slide-5"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-hero__content-wrapper">
+            <div class="uk-container">
+                <div class="uk-grid uk-grid-large uk-flex-middle" data-uk-grid>
+                    <div class="uk-width-1-2@m">
+                        <div class="section-hero__content" data-uk-scrollspy="target: > *; cls: uk-animation-slide-bottom-small; delay: 300">
+                            <div class="section-hero__title-group">
+                                <h1 class="section-hero__title section-hero__title--line1" id="hero-title-line1">FIRST CLASS</h1>
+                                <h1 class="section-hero__title section-hero__title--line2" id="hero-title-line2">BEAUTY ACADEMY</h1>
+                            </div>
+                            <p class="section-hero__subtitle" id="hero-subtitle">F<span class="logo-number">2</span>MG GLOBAL BEAUTY ACADEMY</p>
+                            <p class="section-hero__description" id="hero-description">F2MG와 함께하는<br>특별한 경험을 만나보세요.<br>최고급 뷰티 교육으로 품격 있는 미래를 선사합니다.</p>
+                            <div class="section-hero__cta">
+                                <a class="uk-button uk-button-danger uk-button-large hero-cta-btn" href="/customer-center/online-consultation">상담신청</a>
+                                <a class="uk-button uk-button-default uk-button-large hero-cta-btn" href="/makeup">상세보기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-2@m">
+                        <!-- 이미지 영역 (배경 슬라이더로 처리) -->
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <div class="section-hero__slider-nav">
+                        <div class="hero-slider-pagination"></div>
+                        <div class="hero-slider-navigation">
+                            <div class="hero-slider-button hero-slider-button-prev">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="hero-slider-button hero-slider-button-next">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+</div>
+<div class="section-about">
+    <div class="uk-section-large uk-container">
+        <div class="uk-grid uk-child-width-1-2@m" data-uk-grid>
+            <div>
+                <div class="section-about__media _anim">
+                    <div class="img-animate _anim _anim-no-repeat"><img src="assets/img/img-about.jpg" alt=""></div>
+                </div>
+            </div>
+            <div>
+                <div class="section-about__desc" data-uk-scrollspy="target: > *; cls: uk-animation-slide-bottom-small; delay: 300">
+                    <div class="section-title"><span>F<span class="logo-number">2</span>MG GLOBAL BEAUTY ACADEMY</span>
+                        <h3>Making Every Face Perfect</h3>
+                    </div>
+                    <div class="section-content">
+                        <p>Enim venia quis nostrud exrcit ulamco laboris nst aliquip com conseq reprehen derit fugiat nula pariatur excpteur sint ipsum occaecat. Lorem ipsum dolor sit amet, consect etur adipisicing elit sed do eiusmod tempor.</p><a class="uk-button uk-button-danger uk-button-large" href="/shop">view collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-shop-categories">
+    <div class="uk-section uk-container">
+        <div class="section-content">
+            <div class="uk-grid uk-child-width-1-5@m uk-child-width-1-2 uk-flex-center" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-bottom-small; delay: 300">
+                <div>
+                    <div class="shop-categories-unit"><a class="shop-categories-unit__link" href="/shop"> <span class="shop-categories-unit__icon"><img src="assets/img/shop-categories-1.png" alt="shop-categories"></span><span class="shop-categories-unit__title">Skin Care</span></a></div>
+                </div>
+                <div>
+                    <div class="shop-categories-unit"><a class="shop-categories-unit__link" href="/shop"> <span class="shop-categories-unit__icon"><img src="assets/img/shop-categories-2.png" alt="shop-categories"></span><span class="shop-categories-unit__title">Eye Brows</span></a></div>
+                </div>
+                <div>
+                    <div class="shop-categories-unit"><a class="shop-categories-unit__link" href="/shop"> <span class="shop-categories-unit__icon"><img src="assets/img/shop-categories-3.png" alt="shop-categories"></span><span class="shop-categories-unit__title">Face</span></a></div>
+                </div>
+                <div>
+                    <div class="shop-categories-unit"><a class="shop-categories-unit__link" href="/shop"> <span class="shop-categories-unit__icon"><img src="assets/img/shop-categories-4.png" alt="shop-categories"></span><span class="shop-categories-unit__title">Hair Care</span></a></div>
+                </div>
+                <div>
+                    <div class="shop-categories-unit"><a class="shop-categories-unit__link" href="/shop"> <span class="shop-categories-unit__icon"><img src="assets/img/shop-categories-5.png" alt="shop-categories"></span><span class="shop-categories-unit__title">Makeup</span></a></div>
+                </div>
+            </div>
+            <div class="section-shop-categories__desc" data-uk-scrollspy="target: > div; cls: uk-animation-slide-bottom-small; delay: 300">
+                <div class="section-shop-categories__title">Discover the best illuminating Eye Brows cosmetics</div>
+                <div class="section-shop-categories__text">Nostrud exercitation ullamco laboris nist aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor fugiat nulla pariatur. Excepteur we care for you sint cupidatat non ipsum sed dolor proident.</div>
+                <div class="section-shop-categories__btn"><a class="uk-button uk-button-danger uk-button-large" href="/shop">Start shopping</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

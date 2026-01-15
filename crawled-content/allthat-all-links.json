@@ -1,0 +1,2276 @@
+{
+  "all": [
+    {
+      "text": "홈",
+      "href": "http://www.allthat-beauty.com/web/2022/index.asp",
+      "parentText": "홈"
+    },
+    {
+      "text": "강남",
+      "href": "https://gangnam.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "강남"
+    },
+    {
+      "text": "신촌홍대",
+      "href": "https://gangbuk.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "신촌홍대"
+    },
+    {
+      "text": "노원",
+      "href": "https://nowon.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "노원"
+    },
+    {
+      "text": "인천",
+      "href": "https://incheon.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "인천"
+    },
+    {
+      "text": "수원",
+      "href": "https://suwon.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "수원"
+    },
+    {
+      "text": "일산",
+      "href": "https://ilsan.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "일산"
+    },
+    {
+      "text": "부산",
+      "href": "https://busan.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "부산"
+    },
+    {
+      "text": "대구",
+      "href": "https://daegu.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "대구"
+    },
+    {
+      "text": "대전",
+      "href": "https://daejeon.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "대전"
+    },
+    {
+      "text": "광주",
+      "href": "https://gwangju.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "광주"
+    },
+    {
+      "text": "천안",
+      "href": "https://cheonan.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "천안"
+    },
+    {
+      "text": "로그인",
+      "href": "https://www.allthat-beauty.com/web/2022/member/login.asp",
+      "parentText": "로그인"
+    },
+    {
+      "text": "회원가입",
+      "href": "https://www.allthat-beauty.com/web/2022/member/joinStep01.asp",
+      "parentText": "회원가입"
+    },
+    {
+      "text": "올댓뷰티아카데미",
+      "href": "https://www.allthat-beauty.com/",
+      "parentText": "올댓뷰티아카데미\n\t\t\t\n\t\t\t\t고민말고 올뷰하자!\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t수강료조회특급혜택!\n\t\t\t\t\t\n\t\t\t\t\t카톡상담\n\t\t\t\t\t\n\n\t\t\t\t\t학원위치조회\n\t\t\t\t\n\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\tmenu\n\t\t\t\t\tcall\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tkakao"
+    },
+    {
+      "text": "수강료조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition.asp",
+      "parentText": "수강료조회특급혜택!"
+    },
+    {
+      "text": "학원위치조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "학원위치조회"
+    },
+    {
+      "text": "kakao",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/kakao.asp",
+      "parentText": "kakao"
+    },
+    {
+      "text": "아카데미소개",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/about.asp",
+      "parentText": "아카데미소개"
+    },
+    {
+      "text": "히스토리",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/history.asp",
+      "parentText": "히스토리"
+    },
+    {
+      "text": "강사소개",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/teacher.asp",
+      "parentText": "강사소개"
+    },
+    {
+      "text": "교육시설안내",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/facility.asp",
+      "parentText": "교육시설안내"
+    },
+    {
+      "text": "오시는길",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/location.asp",
+      "parentText": "오시는길"
+    },
+    {
+      "text": "사업제휴문의",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/partner.asp",
+      "parentText": "사업제휴문의"
+    },
+    {
+      "text": "인재채용",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/recruit.asp",
+      "parentText": "인재채용"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup001.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어디자인",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair001.asp",
+      "parentText": "헤어디자인"
+    },
+    {
+      "text": "네일아트",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart001.asp",
+      "parentText": "네일아트"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/esthetique001.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "이용(바버)",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/barber001.asp",
+      "parentText": "이용(바버)"
+    },
+    {
+      "text": "스페셜",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special001.asp",
+      "parentText": "스페셜"
+    },
+    {
+      "text": "입시과정",
+      "href": "https://www.allthat-beauty.com/web/landing/college_index_24.asp",
+      "parentText": "입시과정"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/makeup.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/hair.asp",
+      "parentText": "헤어"
+    },
+    {
+      "text": "네일아트",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/nailart.asp",
+      "parentText": "네일아트"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/esthetique.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "이용(바버)",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/barber.asp",
+      "parentText": "이용(바버)"
+    },
+    {
+      "text": "주말반 운영",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/weekend.asp",
+      "parentText": "주말반 운영"
+    },
+    {
+      "text": "자격증합격현황",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/pass.asp",
+      "parentText": "자격증합격현황"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/min-makeup001.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/min-hair001.asp",
+      "parentText": "헤어"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/min-special001.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "취업전문과정",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/job.asp",
+      "parentText": "취업전문과정"
+    },
+    {
+      "text": "창업전문과정",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/foundation.asp",
+      "parentText": "창업전문과정"
+    },
+    {
+      "text": "취업현황",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/employList.asp",
+      "parentText": "취업현황"
+    },
+    {
+      "text": "성공 스토리",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/winList.asp",
+      "parentText": "성공 스토리"
+    },
+    {
+      "text": "국민취업지원제도",
+      "href": "https://www.allthat-beauty.com/web/2022/ncs/gookbi_employ.asp",
+      "parentText": "국민취업지원제도"
+    },
+    {
+      "text": "공지사항",
+      "href": "https://www.allthat-beauty.com/web/2022/community/noticeList.asp",
+      "parentText": "공지사항"
+    },
+    {
+      "text": "올뷰TV채널",
+      "href": "https://www.allthat-beauty.com/web/2022/community/tvList.asp",
+      "parentText": "올뷰TV채널"
+    },
+    {
+      "text": "수강생작품&현장스토리",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyList.asp",
+      "parentText": "수강생작품&현장스토리"
+    },
+    {
+      "text": "수강생인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewList.asp",
+      "parentText": "수강생인터뷰"
+    },
+    {
+      "text": "수강생 리얼 후기",
+      "href": "https://www.allthat-beauty.com/web/2022/community/postList.asp",
+      "parentText": "수강생 리얼 후기"
+    },
+    {
+      "text": "강사인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/tchList.asp",
+      "parentText": "강사인터뷰"
+    },
+    {
+      "text": "실무자 세미나&특강",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarList.asp",
+      "parentText": "실무자 세미나&특강"
+    },
+    {
+      "text": "실전모의고사",
+      "href": "https://www.allthat-beauty.com/web/2022/CBT/consult_cbt.asp",
+      "parentText": "실전모의고사"
+    },
+    {
+      "text": "시험접수방법",
+      "href": "https://www.allthat-beauty.com/web/2022/community/acceptExam.asp",
+      "parentText": "시험접수방법"
+    },
+    {
+      "text": "온라인강의",
+      "href": "https://www.allthat-beauty.com/web/2022/community/virtualSession.asp",
+      "parentText": "온라인강의"
+    },
+    {
+      "text": "수강료조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition.asp",
+      "parentText": "수강료조회"
+    },
+    {
+      "text": "실시간 상담예약",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/visit.asp",
+      "parentText": "실시간 상담예약"
+    },
+    {
+      "text": "위치조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "위치조회"
+    },
+    {
+      "text": "온라인상담신청",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/online.asp",
+      "parentText": "온라인상담신청"
+    },
+    {
+      "text": "시간표조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/timetable.asp",
+      "parentText": "시간표조회"
+    },
+    {
+      "text": "FAQ",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/faq.asp",
+      "parentText": "FAQ"
+    },
+    {
+      "text": "고객의소리",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/propose.asp",
+      "parentText": "고객의소리"
+    },
+    {
+      "text": "아카데미소개",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/about.asp",
+      "parentText": "아카데미소개"
+    },
+    {
+      "text": "히스토리",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/history.asp",
+      "parentText": "히스토리"
+    },
+    {
+      "text": "강사소개",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/teacher.asp",
+      "parentText": "강사소개"
+    },
+    {
+      "text": "교육시설안내",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/facility.asp",
+      "parentText": "교육시설안내"
+    },
+    {
+      "text": "오시는길",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/location.asp",
+      "parentText": "오시는길"
+    },
+    {
+      "text": "사업제휴문의",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/partner.asp",
+      "parentText": "사업제휴문의"
+    },
+    {
+      "text": "인재채용",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/recruit.asp",
+      "parentText": "인재채용"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup001.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어디자인",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair001.asp",
+      "parentText": "헤어디자인"
+    },
+    {
+      "text": "네일아트",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart001.asp",
+      "parentText": "네일아트"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/esthetique001.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "이용(바버)",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/barber001.asp",
+      "parentText": "이용(바버)"
+    },
+    {
+      "text": "스페셜",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special001.asp",
+      "parentText": "스페셜"
+    },
+    {
+      "text": "입시과정",
+      "href": "https://www.allthat-beauty.com/web/landing/college_index_24.asp",
+      "parentText": "입시과정"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/makeup.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/hair.asp",
+      "parentText": "헤어"
+    },
+    {
+      "text": "네일아트",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/nailart.asp",
+      "parentText": "네일아트"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/esthetique.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "이용(바버)",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/barber.asp",
+      "parentText": "이용(바버)"
+    },
+    {
+      "text": "주말반 운영",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/weekend.asp",
+      "parentText": "주말반 운영"
+    },
+    {
+      "text": "자격증합격현황",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/pass.asp",
+      "parentText": "자격증합격현황"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/min-makeup001.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/min-hair001.asp",
+      "parentText": "헤어"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/min-special001.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "취업전문과정",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/job.asp",
+      "parentText": "취업전문과정"
+    },
+    {
+      "text": "창업전문과정",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/foundation.asp",
+      "parentText": "창업전문과정"
+    },
+    {
+      "text": "취업현황",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/employList.asp",
+      "parentText": "취업현황"
+    },
+    {
+      "text": "성공 스토리",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/winList.asp",
+      "parentText": "성공 스토리"
+    },
+    {
+      "text": "국민취업지원제도",
+      "href": "https://www.allthat-beauty.com/web/2022/ncs/gookbi_employ.asp",
+      "parentText": "국민취업지원제도"
+    },
+    {
+      "text": "공지사항",
+      "href": "https://www.allthat-beauty.com/web/2022/community/noticeList.asp",
+      "parentText": "공지사항"
+    },
+    {
+      "text": "올뷰TV채널",
+      "href": "https://www.allthat-beauty.com/web/2022/community/tvList.asp",
+      "parentText": "올뷰TV채널"
+    },
+    {
+      "text": "수강생작품&현장스토리",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyList.asp",
+      "parentText": "수강생작품&현장스토리"
+    },
+    {
+      "text": "수강생인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewList.asp",
+      "parentText": "수강생인터뷰"
+    },
+    {
+      "text": "수강생 리얼 후기",
+      "href": "https://www.allthat-beauty.com/web/2022/community/postList.asp",
+      "parentText": "수강생 리얼 후기"
+    },
+    {
+      "text": "강사인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/tchList.asp",
+      "parentText": "강사인터뷰"
+    },
+    {
+      "text": "실무자 세미나&특강",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarList.asp",
+      "parentText": "실무자 세미나&특강"
+    },
+    {
+      "text": "실전모의고사",
+      "href": "https://www.allthat-beauty.com/web/2022/CBT/consult_cbt.asp",
+      "parentText": "실전모의고사"
+    },
+    {
+      "text": "시험접수방법",
+      "href": "https://www.allthat-beauty.com/web/2022/community/acceptExam.asp",
+      "parentText": "시험접수방법"
+    },
+    {
+      "text": "온라인강의",
+      "href": "https://www.allthat-beauty.com/web/2022/community/virtualSession.asp",
+      "parentText": "온라인강의"
+    },
+    {
+      "text": "수강료조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition.asp",
+      "parentText": "수강료조회"
+    },
+    {
+      "text": "실시간 상담예약",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/visit.asp",
+      "parentText": "실시간 상담예약"
+    },
+    {
+      "text": "위치조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "위치조회"
+    },
+    {
+      "text": "온라인상담신청",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/online.asp",
+      "parentText": "온라인상담신청"
+    },
+    {
+      "text": "시간표조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/timetable.asp",
+      "parentText": "시간표조회"
+    },
+    {
+      "text": "FAQ",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/faq.asp",
+      "parentText": "FAQ"
+    },
+    {
+      "text": "고객의소리",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/propose.asp",
+      "parentText": "고객의소리"
+    },
+    {
+      "text": "Certificate국가 자격증",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/makeup.asp",
+      "parentText": "Certificate국가 자격증\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t메이크업\n\t\t\t\t\t헤어\n\t\t\t\t\t네일아트\n\t\t\t\t\t에스테틱\n\t\t\t\t\t이용"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/makeup.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/hair.asp",
+      "parentText": "헤어"
+    },
+    {
+      "text": "네일아트",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/nailart.asp",
+      "parentText": "네일아트"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/esthetique.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "이용",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/barber.asp",
+      "parentText": "이용"
+    },
+    {
+      "text": "Makeup메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup001.asp",
+      "parentText": "Makeup메이크업\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t메이크업 국가자격증\n\t\t\t\t\t메이크업 민간자격증\n\t\t\t\t\t메이크업 아티스트\n\t\t\t\t\t웨딩 메이크업\n\t\t\t\t\t에어브러쉬\n\t\t\t\t\t아트 메이크업\n\t\t\t\t\t메이크업 대회반"
+    },
+    {
+      "text": "메이크업 국가자격증",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup001.asp",
+      "parentText": "메이크업 국가자격증"
+    },
+    {
+      "text": "메이크업 민간자격증",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup002.asp",
+      "parentText": "메이크업 민간자격증"
+    },
+    {
+      "text": "메이크업 아티스트",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup006.asp",
+      "parentText": "메이크업 아티스트"
+    },
+    {
+      "text": "웨딩 메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup003.asp",
+      "parentText": "웨딩 메이크업"
+    },
+    {
+      "text": "에어브러쉬",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup004.asp",
+      "parentText": "에어브러쉬"
+    },
+    {
+      "text": "아트 메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup005.asp",
+      "parentText": "아트 메이크업"
+    },
+    {
+      "text": "메이크업 대회반",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup007.asp",
+      "parentText": "메이크업 대회반"
+    },
+    {
+      "text": "Hair Design헤어디자인",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair001.asp",
+      "parentText": "Hair Design헤어디자인\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t헤어 국가자격증\n\t\t\t\t\t헤어 현장실무\n\t\t\t\t\t업스타일\n\t\t\t\t\t헤어커트\n\t\t\t\t\t헤어컬러링\n\t\t\t\t\t헤어 대회반"
+    },
+    {
+      "text": "헤어 국가자격증",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair001.asp",
+      "parentText": "헤어 국가자격증"
+    },
+    {
+      "text": "헤어 현장실무",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair002.asp",
+      "parentText": "헤어 현장실무"
+    },
+    {
+      "text": "업스타일",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair003.asp",
+      "parentText": "업스타일"
+    },
+    {
+      "text": "헤어커트",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair004.asp",
+      "parentText": "헤어커트"
+    },
+    {
+      "text": "헤어컬러링",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair005.asp",
+      "parentText": "헤어컬러링"
+    },
+    {
+      "text": "헤어 대회반",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair006.asp",
+      "parentText": "헤어 대회반"
+    },
+    {
+      "text": "Nail Art네일아트",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart001.asp",
+      "parentText": "Nail Art네일아트\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t네일아트 국가자격증\n\t\t\t\t\t네일아트 현장실무\n\t\t\t\t\t일렉트릭 드릴 머신\n\t\t\t\t\t젤아트"
+    },
+    {
+      "text": "네일아트 국가자격증",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart001.asp",
+      "parentText": "네일아트 국가자격증"
+    },
+    {
+      "text": "네일아트 현장실무",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart002.asp",
+      "parentText": "네일아트 현장실무"
+    },
+    {
+      "text": "일렉트릭 드릴 머신",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart003.asp",
+      "parentText": "일렉트릭 드릴 머신"
+    },
+    {
+      "text": "젤아트",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart004.asp",
+      "parentText": "젤아트"
+    },
+    {
+      "text": "Esthetic에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/esthetique001.asp",
+      "parentText": "Esthetic에스테틱\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t에스테틱 국가자격증\n\t\t\t\t\t에스테틱션 국가직무교육과정"
+    },
+    {
+      "text": "에스테틱 국가자격증",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/esthetique001.asp",
+      "parentText": "에스테틱 국가자격증"
+    },
+    {
+      "text": "에스테틱션 국가직무교육과정",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/esthetique002.asp",
+      "parentText": "에스테틱션 국가직무교육과정"
+    },
+    {
+      "text": "Eyelashes속눈썹",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special003.asp",
+      "parentText": "Eyelashes속눈썹"
+    },
+    {
+      "text": "Waxing 왁싱",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special002.asp",
+      "parentText": "Waxing 왁싱"
+    },
+    {
+      "text": "Special 스페셜",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special001.asp",
+      "parentText": "Special 스페셜\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t두피관리 전문가\n\t\t\t\t\t왁싱 전문가\n\t\t\t\t\t속눈썹 연장\n\t\t\t\t\t뷰티 전문가\n\t\t\t\t\t맞춤형 화장품 조제관리사\n\t\t\t\t\t붙임머리\n\t\t\t\t\t트러블 스킨케어\n\t\t\t\t\t퍼스널 컬러"
+    },
+    {
+      "text": "두피관리 전문가",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special001.asp",
+      "parentText": "두피관리 전문가"
+    },
+    {
+      "text": "왁싱 전문가",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special002.asp",
+      "parentText": "왁싱 전문가"
+    },
+    {
+      "text": "속눈썹 연장",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special003.asp",
+      "parentText": "속눈썹 연장"
+    },
+    {
+      "text": "뷰티 전문가",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special004.asp",
+      "parentText": "뷰티 전문가"
+    },
+    {
+      "text": "맞춤형 화장품 조제관리사",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special005.asp",
+      "parentText": "맞춤형 화장품 조제관리사"
+    },
+    {
+      "text": "붙임머리",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special006.asp",
+      "parentText": "붙임머리"
+    },
+    {
+      "text": "트러블 스킨케어",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special007.asp",
+      "parentText": "트러블 스킨케어"
+    },
+    {
+      "text": "퍼스널 컬러",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special008.asp",
+      "parentText": "퍼스널 컬러"
+    },
+    {
+      "text": "Teachers강사진",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/teacher.asp",
+      "parentText": "Teachers강사진"
+    },
+    {
+      "text": "수강료조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition.asp",
+      "parentText": "수강료조회"
+    },
+    {
+      "text": "이달의혜택",
+      "href": "https://www.allthat-beauty.com/web/2022/community/noticeView.asp?idxnum=525",
+      "parentText": "이달의혜택"
+    },
+    {
+      "text": "자격증일정",
+      "href": "https://www.allthat-beauty.com/web/2022/community/schedule.asp",
+      "parentText": "자격증일정"
+    },
+    {
+      "text": "방문상담예약",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/visit.asp",
+      "parentText": "방문상담예약"
+    },
+    {
+      "text": "위치조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "위치조회"
+    },
+    {
+      "text": "수강생후기",
+      "href": "https://www.allthat-beauty.com/web/2022/community/postList.asp",
+      "parentText": "수강생후기"
+    },
+    {
+      "text": "1 월 한정 특급 이벤트!수강료조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition.asp",
+      "parentText": "1 월 한정 특급 이벤트!수강료조회"
+    },
+    {
+      "text": "자격증 시험일정조회",
+      "href": "https://www.allthat-beauty.com/web/2022/community/schedule.asp",
+      "parentText": "자격증 시험일정조회"
+    },
+    {
+      "text": "카톡상담",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/kakao.asp",
+      "parentText": "카톡상담"
+    },
+    {
+      "text": "학원위치조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "학원위치조회"
+    },
+    {
+      "text": "입시\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\tEnter University",
+      "href": "https://www.allthat-beauty.com/web/landing/college_index_24.asp",
+      "parentText": "입시\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\tEnter University"
+    },
+    {
+      "text": "메이크업\n\t\t\t\t\t\tMake up",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup001.asp",
+      "parentText": "메이크업\n\t\t\t\t\t\tMake up"
+    },
+    {
+      "text": "헤어디자인\n\t\t\t\t\t\tHair Design",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair001.asp",
+      "parentText": "헤어디자인\n\t\t\t\t\t\tHair Design"
+    },
+    {
+      "text": "네일아트\n\t\t\t\t\t\tNailart",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart001.asp",
+      "parentText": "네일아트\n\t\t\t\t\t\tNailart"
+    },
+    {
+      "text": "이용\n\t\t\t\t\t\tBarber",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/barber001.asp",
+      "parentText": "이용\n\t\t\t\t\t\tBarber"
+    },
+    {
+      "text": "에스테틱\n\t\t\t\t\t\tEsthetic",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/esthetique001.asp",
+      "parentText": "에스테틱\n\t\t\t\t\t\tEsthetic"
+    },
+    {
+      "text": "헤어디자인학과 이채영 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2553",
+      "parentText": "헤어디자인학과 이채영 수강생 인터뷰"
+    },
+    {
+      "text": "헤어디자인학과 구예린 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2552",
+      "parentText": "헤어디자인학과 구예린 수강생 인터뷰"
+    },
+    {
+      "text": "에스테틱학과 나은지 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2549",
+      "parentText": "에스테틱학과 나은지 수강생 인터뷰"
+    },
+    {
+      "text": "네일아트학과 이가윤 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2556",
+      "parentText": "네일아트학과 이가윤 수강생 인터뷰"
+    },
+    {
+      "text": "메이크업학과 최정은 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2555",
+      "parentText": "메이크업학과 최정은 수강생 인터뷰"
+    },
+    {
+      "text": "에스테틱학과 김진아 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2554",
+      "parentText": "에스테틱학과 김진아 수강생 인터뷰"
+    },
+    {
+      "text": "헤어디자인학과 이채영 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2553",
+      "parentText": "헤어디자인학과 이채영 수강생 인터뷰"
+    },
+    {
+      "text": "헤어디자인학과 구예린 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2552",
+      "parentText": "헤어디자인학과 구예린 수강생 인터뷰"
+    },
+    {
+      "text": "에스테틱학과 나은지 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2549",
+      "parentText": "에스테틱학과 나은지 수강생 인터뷰"
+    },
+    {
+      "text": "네일아트학과 이가윤 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2556",
+      "parentText": "네일아트학과 이가윤 수강생 인터뷰"
+    },
+    {
+      "text": "메이크업학과 최정은 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2555",
+      "parentText": "메이크업학과 최정은 수강생 인터뷰"
+    },
+    {
+      "text": "에스테틱학과 김진아 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2554",
+      "parentText": "에스테틱학과 김진아 수강생 인터뷰"
+    },
+    {
+      "text": "헤어디자인학과 이채영 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2553",
+      "parentText": "헤어디자인학과 이채영 수강생 인터뷰"
+    },
+    {
+      "text": "헤어디자인학과 구예린 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2552",
+      "parentText": "헤어디자인학과 구예린 수강생 인터뷰"
+    },
+    {
+      "text": "에스테틱학과 나은지 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2549",
+      "parentText": "에스테틱학과 나은지 수강생 인터뷰"
+    },
+    {
+      "text": "Etc & Seminar\n\t\t\t\t\t\t\t올댓뷰티아카데미 금나와라 뚝딱 -황금열쇠의 주인공은 누구- 이벤트 진행",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2856",
+      "parentText": "Etc & Seminar\n\t\t\t\t\t\t\t올댓뷰티아카데미 금나와라 뚝딱 -황금열쇠의 주인공은 누구- 이벤트 진행"
+    },
+    {
+      "text": "Nailist Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 요즘 핫한 네일 현장 스킬! 모두 다 알려줄께!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2855",
+      "parentText": "Nailist Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 요즘 핫한 네일 현장 스킬! 모두 다 알려줄께!"
+    },
+    {
+      "text": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 스타일링, 올림머리의 기초! 업스타일 수업 현장~!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2854",
+      "parentText": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 스타일링, 올림머리의 기초! 업스타일 수업 현장~!"
+    },
+    {
+      "text": "Make up Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 아름다운 눈을 위한 속눈썹 펌 수업 현장!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2859",
+      "parentText": "Make up Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 아름다운 눈을 위한 속눈썹 펌 수업 현장!"
+    },
+    {
+      "text": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 내가 미래의 헤어 디자이너! 헤어 현장 실무반",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2858",
+      "parentText": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 내가 미래의 헤어 디자이너! 헤어 현장 실무반"
+    },
+    {
+      "text": "Esthetic Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 깔끔한 이미지를 위해선! 한 올도 남길 수 없어!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2857",
+      "parentText": "Esthetic Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 깔끔한 이미지를 위해선! 한 올도 남길 수 없어!"
+    },
+    {
+      "text": "Etc & Seminar\n\t\t\t\t\t\t\t올댓뷰티아카데미 금나와라 뚝딱 -황금열쇠의 주인공은 누구- 이벤트 진행",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2856",
+      "parentText": "Etc & Seminar\n\t\t\t\t\t\t\t올댓뷰티아카데미 금나와라 뚝딱 -황금열쇠의 주인공은 누구- 이벤트 진행"
+    },
+    {
+      "text": "Nailist Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 요즘 핫한 네일 현장 스킬! 모두 다 알려줄께!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2855",
+      "parentText": "Nailist Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 요즘 핫한 네일 현장 스킬! 모두 다 알려줄께!"
+    },
+    {
+      "text": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 스타일링, 올림머리의 기초! 업스타일 수업 현장~!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2854",
+      "parentText": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 스타일링, 올림머리의 기초! 업스타일 수업 현장~!"
+    },
+    {
+      "text": "Make up Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 아름다운 눈을 위한 속눈썹 펌 수업 현장!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2859",
+      "parentText": "Make up Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 아름다운 눈을 위한 속눈썹 펌 수업 현장!"
+    },
+    {
+      "text": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 내가 미래의 헤어 디자이너! 헤어 현장 실무반",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2858",
+      "parentText": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 내가 미래의 헤어 디자이너! 헤어 현장 실무반"
+    },
+    {
+      "text": "Esthetic Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 깔끔한 이미지를 위해선! 한 올도 남길 수 없어!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2857",
+      "parentText": "Esthetic Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 깔끔한 이미지를 위해선! 한 올도 남길 수 없어!"
+    },
+    {
+      "text": "Etc & Seminar\n\t\t\t\t\t\t\t올댓뷰티아카데미 금나와라 뚝딱 -황금열쇠의 주인공은 누구- 이벤트 진행",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2856",
+      "parentText": "Etc & Seminar\n\t\t\t\t\t\t\t올댓뷰티아카데미 금나와라 뚝딱 -황금열쇠의 주인공은 누구- 이벤트 진행"
+    },
+    {
+      "text": "Nailist Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 요즘 핫한 네일 현장 스킬! 모두 다 알려줄께!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2855",
+      "parentText": "Nailist Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 요즘 핫한 네일 현장 스킬! 모두 다 알려줄께!"
+    },
+    {
+      "text": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 스타일링, 올림머리의 기초! 업스타일 수업 현장~!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2854",
+      "parentText": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 스타일링, 올림머리의 기초! 업스타일 수업 현장~!"
+    },
+    {
+      "text": "수강신청 하러가기",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition.asp",
+      "parentText": "수강신청 하러가기"
+    },
+    {
+      "text": "광주이용사 실기시험 꿀팁 특강",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1904&cate1=0",
+      "parentText": "광주이용사 실기시험 꿀팁 특강"
+    },
+    {
+      "text": "일산아이섀도우로 네일아트를 한다구~?",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1905&cate1=0",
+      "parentText": "일산아이섀도우로 네일아트를 한다구~?"
+    },
+    {
+      "text": "노원화이트데이 사탕뽑기!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1906&cate1=0",
+      "parentText": "노원화이트데이 사탕뽑기!"
+    },
+    {
+      "text": "천안2025 메이크업 One Day Class",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1884&cate1=0",
+      "parentText": "천안2025 메이크업 One Day Class"
+    },
+    {
+      "text": "강남올댓뷰티아카데미에서 진행하는 네일아트 대회반 특강~!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1907&cate1=0",
+      "parentText": "강남올댓뷰티아카데미에서 진행하는 네일아트 대회반 특강~!"
+    },
+    {
+      "text": "신촌원패스 기원을 위한 미용사(메이크업) 모의테스트",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1899&cate1=0",
+      "parentText": "신촌원패스 기원을 위한 미용사(메이크업) 모의테스트"
+    },
+    {
+      "text": "부산눈가리고 아웅~",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1898&cate1=0",
+      "parentText": "부산눈가리고 아웅~"
+    },
+    {
+      "text": "대구필기도 ONE PASS",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1890&cate1=0",
+      "parentText": "대구필기도 ONE PASS"
+    },
+    {
+      "text": "인천올뷰살롱 에스테틱학과",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1902&cate1=0",
+      "parentText": "인천올뷰살롱 에스테틱학과"
+    },
+    {
+      "text": "대전2024 하반기 공모전 Award in Daejeon",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1863&cate1=0",
+      "parentText": "대전2024 하반기 공모전 Award in Daejeon"
+    },
+    {
+      "text": "수원뷰티수원 또 일냈다! 붕어빵에 이은 올뷰 와플",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1892&cate1=0",
+      "parentText": "수원뷰티수원 또 일냈다! 붕어빵에 이은 올뷰 와플"
+    },
+    {
+      "text": "광주이용사 실기시험 꿀팁 특강",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1904&cate1=0",
+      "parentText": "광주이용사 실기시험 꿀팁 특강"
+    },
+    {
+      "text": "일산아이섀도우로 네일아트를 한다구~?",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1905&cate1=0",
+      "parentText": "일산아이섀도우로 네일아트를 한다구~?"
+    },
+    {
+      "text": "노원화이트데이 사탕뽑기!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1906&cate1=0",
+      "parentText": "노원화이트데이 사탕뽑기!"
+    },
+    {
+      "text": "천안2025 메이크업 One Day Class",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1884&cate1=0",
+      "parentText": "천안2025 메이크업 One Day Class"
+    },
+    {
+      "text": "강남올댓뷰티아카데미에서 진행하는 네일아트 대회반 특강~!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1907&cate1=0",
+      "parentText": "강남올댓뷰티아카데미에서 진행하는 네일아트 대회반 특강~!"
+    },
+    {
+      "text": "신촌원패스 기원을 위한 미용사(메이크업) 모의테스트",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1899&cate1=0",
+      "parentText": "신촌원패스 기원을 위한 미용사(메이크업) 모의테스트"
+    },
+    {
+      "text": "부산눈가리고 아웅~",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1898&cate1=0",
+      "parentText": "부산눈가리고 아웅~"
+    },
+    {
+      "text": "대구필기도 ONE PASS",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1890&cate1=0",
+      "parentText": "대구필기도 ONE PASS"
+    },
+    {
+      "text": "인천올뷰살롱 에스테틱학과",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1902&cate1=0",
+      "parentText": "인천올뷰살롱 에스테틱학과"
+    },
+    {
+      "text": "대전2024 하반기 공모전 Award in Daejeon",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1863&cate1=0",
+      "parentText": "대전2024 하반기 공모전 Award in Daejeon"
+    },
+    {
+      "text": "수원뷰티수원 또 일냈다! 붕어빵에 이은 올뷰 와플",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1892&cate1=0",
+      "parentText": "수원뷰티수원 또 일냈다! 붕어빵에 이은 올뷰 와플"
+    },
+    {
+      "text": "광주이용사 실기시험 꿀팁 특강",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1904&cate1=0",
+      "parentText": "광주이용사 실기시험 꿀팁 특강"
+    },
+    {
+      "text": "일산아이섀도우로 네일아트를 한다구~?",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1905&cate1=0",
+      "parentText": "일산아이섀도우로 네일아트를 한다구~?"
+    },
+    {
+      "text": "노원화이트데이 사탕뽑기!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1906&cate1=0",
+      "parentText": "노원화이트데이 사탕뽑기!"
+    },
+    {
+      "text": "천안2025 메이크업 One Day Class",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1884&cate1=0",
+      "parentText": "천안2025 메이크업 One Day Class"
+    },
+    {
+      "text": "개인정보처리방침",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/privacy_info.asp",
+      "parentText": "개인정보처리방침"
+    },
+    {
+      "text": "사업제휴",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/partner.asp",
+      "parentText": "사업제휴"
+    },
+    {
+      "text": "고객상담센터",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/online.asp",
+      "parentText": "고객상담센터"
+    },
+    {
+      "text": "오시는 길",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/location.asp",
+      "parentText": "오시는 길"
+    },
+    {
+      "text": "수강료안내",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition_info.asp",
+      "parentText": "수강료안내"
+    }
+  ],
+  "menu": [
+    {
+      "text": "홈",
+      "href": "http://www.allthat-beauty.com/web/2022/index.asp",
+      "parentText": "홈"
+    },
+    {
+      "text": "강남",
+      "href": "https://gangnam.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "강남"
+    },
+    {
+      "text": "신촌홍대",
+      "href": "https://gangbuk.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "신촌홍대"
+    },
+    {
+      "text": "노원",
+      "href": "https://nowon.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "노원"
+    },
+    {
+      "text": "인천",
+      "href": "https://incheon.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "인천"
+    },
+    {
+      "text": "수원",
+      "href": "https://suwon.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "수원"
+    },
+    {
+      "text": "일산",
+      "href": "https://ilsan.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "일산"
+    },
+    {
+      "text": "부산",
+      "href": "https://busan.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "부산"
+    },
+    {
+      "text": "대구",
+      "href": "https://daegu.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "대구"
+    },
+    {
+      "text": "대전",
+      "href": "https://daejeon.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "대전"
+    },
+    {
+      "text": "광주",
+      "href": "https://gwangju.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "광주"
+    },
+    {
+      "text": "천안",
+      "href": "https://cheonan.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "천안"
+    },
+    {
+      "text": "로그인",
+      "href": "https://www.allthat-beauty.com/web/2022/member/login.asp",
+      "parentText": "로그인"
+    },
+    {
+      "text": "회원가입",
+      "href": "https://www.allthat-beauty.com/web/2022/member/joinStep01.asp",
+      "parentText": "회원가입"
+    },
+    {
+      "text": "수강료조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition.asp",
+      "parentText": "수강료조회특급혜택!"
+    },
+    {
+      "text": "학원위치조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "학원위치조회"
+    },
+    {
+      "text": "kakao",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/kakao.asp",
+      "parentText": "kakao"
+    },
+    {
+      "text": "아카데미소개",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/about.asp",
+      "parentText": "아카데미소개"
+    },
+    {
+      "text": "히스토리",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/history.asp",
+      "parentText": "히스토리"
+    },
+    {
+      "text": "강사소개",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/teacher.asp",
+      "parentText": "강사소개"
+    },
+    {
+      "text": "교육시설안내",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/facility.asp",
+      "parentText": "교육시설안내"
+    },
+    {
+      "text": "오시는길",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/location.asp",
+      "parentText": "오시는길"
+    },
+    {
+      "text": "사업제휴문의",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/partner.asp",
+      "parentText": "사업제휴문의"
+    },
+    {
+      "text": "인재채용",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/recruit.asp",
+      "parentText": "인재채용"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup001.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어디자인",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair001.asp",
+      "parentText": "헤어디자인"
+    },
+    {
+      "text": "네일아트",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart001.asp",
+      "parentText": "네일아트"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/esthetique001.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "이용(바버)",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/barber001.asp",
+      "parentText": "이용(바버)"
+    },
+    {
+      "text": "스페셜",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special001.asp",
+      "parentText": "스페셜"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/makeup.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/hair.asp",
+      "parentText": "헤어"
+    },
+    {
+      "text": "네일아트",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/nailart.asp",
+      "parentText": "네일아트"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/esthetique.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "이용(바버)",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/barber.asp",
+      "parentText": "이용(바버)"
+    },
+    {
+      "text": "주말반 운영",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/weekend.asp",
+      "parentText": "주말반 운영"
+    },
+    {
+      "text": "자격증합격현황",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/pass.asp",
+      "parentText": "자격증합격현황"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/min-makeup001.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/min-hair001.asp",
+      "parentText": "헤어"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/min-special001.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "취업전문과정",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/job.asp",
+      "parentText": "취업전문과정"
+    },
+    {
+      "text": "창업전문과정",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/foundation.asp",
+      "parentText": "창업전문과정"
+    },
+    {
+      "text": "취업현황",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/employList.asp",
+      "parentText": "취업현황"
+    },
+    {
+      "text": "성공 스토리",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/winList.asp",
+      "parentText": "성공 스토리"
+    },
+    {
+      "text": "국민취업지원제도",
+      "href": "https://www.allthat-beauty.com/web/2022/ncs/gookbi_employ.asp",
+      "parentText": "국민취업지원제도"
+    },
+    {
+      "text": "공지사항",
+      "href": "https://www.allthat-beauty.com/web/2022/community/noticeList.asp",
+      "parentText": "공지사항"
+    },
+    {
+      "text": "올뷰TV채널",
+      "href": "https://www.allthat-beauty.com/web/2022/community/tvList.asp",
+      "parentText": "올뷰TV채널"
+    },
+    {
+      "text": "수강생작품&현장스토리",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyList.asp",
+      "parentText": "수강생작품&현장스토리"
+    },
+    {
+      "text": "수강생인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewList.asp",
+      "parentText": "수강생인터뷰"
+    },
+    {
+      "text": "수강생 리얼 후기",
+      "href": "https://www.allthat-beauty.com/web/2022/community/postList.asp",
+      "parentText": "수강생 리얼 후기"
+    },
+    {
+      "text": "강사인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/tchList.asp",
+      "parentText": "강사인터뷰"
+    },
+    {
+      "text": "실무자 세미나&특강",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarList.asp",
+      "parentText": "실무자 세미나&특강"
+    },
+    {
+      "text": "실전모의고사",
+      "href": "https://www.allthat-beauty.com/web/2022/CBT/consult_cbt.asp",
+      "parentText": "실전모의고사"
+    },
+    {
+      "text": "시험접수방법",
+      "href": "https://www.allthat-beauty.com/web/2022/community/acceptExam.asp",
+      "parentText": "시험접수방법"
+    },
+    {
+      "text": "온라인강의",
+      "href": "https://www.allthat-beauty.com/web/2022/community/virtualSession.asp",
+      "parentText": "온라인강의"
+    },
+    {
+      "text": "수강료조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition.asp",
+      "parentText": "수강료조회"
+    },
+    {
+      "text": "실시간 상담예약",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/visit.asp",
+      "parentText": "실시간 상담예약"
+    },
+    {
+      "text": "위치조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "위치조회"
+    },
+    {
+      "text": "온라인상담신청",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/online.asp",
+      "parentText": "온라인상담신청"
+    },
+    {
+      "text": "시간표조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/timetable.asp",
+      "parentText": "시간표조회"
+    },
+    {
+      "text": "FAQ",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/faq.asp",
+      "parentText": "FAQ"
+    },
+    {
+      "text": "고객의소리",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/propose.asp",
+      "parentText": "고객의소리"
+    },
+    {
+      "text": "아카데미소개",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/about.asp",
+      "parentText": "아카데미소개"
+    },
+    {
+      "text": "히스토리",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/history.asp",
+      "parentText": "히스토리"
+    },
+    {
+      "text": "강사소개",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/teacher.asp",
+      "parentText": "강사소개"
+    },
+    {
+      "text": "교육시설안내",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/facility.asp",
+      "parentText": "교육시설안내"
+    },
+    {
+      "text": "오시는길",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/location.asp",
+      "parentText": "오시는길"
+    },
+    {
+      "text": "사업제휴문의",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/partner.asp",
+      "parentText": "사업제휴문의"
+    },
+    {
+      "text": "인재채용",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/recruit.asp",
+      "parentText": "인재채용"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup001.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어디자인",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair001.asp",
+      "parentText": "헤어디자인"
+    },
+    {
+      "text": "네일아트",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart001.asp",
+      "parentText": "네일아트"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/esthetique001.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "이용(바버)",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/barber001.asp",
+      "parentText": "이용(바버)"
+    },
+    {
+      "text": "스페셜",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special001.asp",
+      "parentText": "스페셜"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/makeup.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/hair.asp",
+      "parentText": "헤어"
+    },
+    {
+      "text": "네일아트",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/nailart.asp",
+      "parentText": "네일아트"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/esthetique.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "이용(바버)",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/barber.asp",
+      "parentText": "이용(바버)"
+    },
+    {
+      "text": "주말반 운영",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/weekend.asp",
+      "parentText": "주말반 운영"
+    },
+    {
+      "text": "자격증합격현황",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/pass.asp",
+      "parentText": "자격증합격현황"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/min-makeup001.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/min-hair001.asp",
+      "parentText": "헤어"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/min-special001.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "취업전문과정",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/job.asp",
+      "parentText": "취업전문과정"
+    },
+    {
+      "text": "창업전문과정",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/foundation.asp",
+      "parentText": "창업전문과정"
+    },
+    {
+      "text": "취업현황",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/employList.asp",
+      "parentText": "취업현황"
+    },
+    {
+      "text": "성공 스토리",
+      "href": "https://www.allthat-beauty.com/web/2022/consulting/winList.asp",
+      "parentText": "성공 스토리"
+    },
+    {
+      "text": "국민취업지원제도",
+      "href": "https://www.allthat-beauty.com/web/2022/ncs/gookbi_employ.asp",
+      "parentText": "국민취업지원제도"
+    },
+    {
+      "text": "공지사항",
+      "href": "https://www.allthat-beauty.com/web/2022/community/noticeList.asp",
+      "parentText": "공지사항"
+    },
+    {
+      "text": "올뷰TV채널",
+      "href": "https://www.allthat-beauty.com/web/2022/community/tvList.asp",
+      "parentText": "올뷰TV채널"
+    },
+    {
+      "text": "수강생작품&현장스토리",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyList.asp",
+      "parentText": "수강생작품&현장스토리"
+    },
+    {
+      "text": "수강생인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewList.asp",
+      "parentText": "수강생인터뷰"
+    },
+    {
+      "text": "수강생 리얼 후기",
+      "href": "https://www.allthat-beauty.com/web/2022/community/postList.asp",
+      "parentText": "수강생 리얼 후기"
+    },
+    {
+      "text": "강사인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/tchList.asp",
+      "parentText": "강사인터뷰"
+    },
+    {
+      "text": "실무자 세미나&특강",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarList.asp",
+      "parentText": "실무자 세미나&특강"
+    },
+    {
+      "text": "실전모의고사",
+      "href": "https://www.allthat-beauty.com/web/2022/CBT/consult_cbt.asp",
+      "parentText": "실전모의고사"
+    },
+    {
+      "text": "시험접수방법",
+      "href": "https://www.allthat-beauty.com/web/2022/community/acceptExam.asp",
+      "parentText": "시험접수방법"
+    },
+    {
+      "text": "온라인강의",
+      "href": "https://www.allthat-beauty.com/web/2022/community/virtualSession.asp",
+      "parentText": "온라인강의"
+    },
+    {
+      "text": "수강료조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition.asp",
+      "parentText": "수강료조회"
+    },
+    {
+      "text": "실시간 상담예약",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/visit.asp",
+      "parentText": "실시간 상담예약"
+    },
+    {
+      "text": "위치조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "위치조회"
+    },
+    {
+      "text": "온라인상담신청",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/online.asp",
+      "parentText": "온라인상담신청"
+    },
+    {
+      "text": "시간표조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/timetable.asp",
+      "parentText": "시간표조회"
+    },
+    {
+      "text": "FAQ",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/faq.asp",
+      "parentText": "FAQ"
+    },
+    {
+      "text": "고객의소리",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/propose.asp",
+      "parentText": "고객의소리"
+    },
+    {
+      "text": "Certificate국가 자격증",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/makeup.asp",
+      "parentText": "Certificate국가 자격증\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t메이크업\n\t\t\t\t\t헤어\n\t\t\t\t\t네일아트\n\t\t\t\t\t에스테틱\n\t\t\t\t\t이용"
+    },
+    {
+      "text": "메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/makeup.asp",
+      "parentText": "메이크업"
+    },
+    {
+      "text": "헤어",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/hair.asp",
+      "parentText": "헤어"
+    },
+    {
+      "text": "네일아트",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/nailart.asp",
+      "parentText": "네일아트"
+    },
+    {
+      "text": "에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/esthetique.asp",
+      "parentText": "에스테틱"
+    },
+    {
+      "text": "이용",
+      "href": "https://www.allthat-beauty.com/web/2022/licence/barber.asp",
+      "parentText": "이용"
+    },
+    {
+      "text": "Makeup메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup001.asp",
+      "parentText": "Makeup메이크업\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t메이크업 국가자격증\n\t\t\t\t\t메이크업 민간자격증\n\t\t\t\t\t메이크업 아티스트\n\t\t\t\t\t웨딩 메이크업\n\t\t\t\t\t에어브러쉬\n\t\t\t\t\t아트 메이크업\n\t\t\t\t\t메이크업 대회반"
+    },
+    {
+      "text": "메이크업 국가자격증",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup001.asp",
+      "parentText": "메이크업 국가자격증"
+    },
+    {
+      "text": "메이크업 민간자격증",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup002.asp",
+      "parentText": "메이크업 민간자격증"
+    },
+    {
+      "text": "메이크업 아티스트",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup006.asp",
+      "parentText": "메이크업 아티스트"
+    },
+    {
+      "text": "웨딩 메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup003.asp",
+      "parentText": "웨딩 메이크업"
+    },
+    {
+      "text": "에어브러쉬",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup004.asp",
+      "parentText": "에어브러쉬"
+    },
+    {
+      "text": "아트 메이크업",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup005.asp",
+      "parentText": "아트 메이크업"
+    },
+    {
+      "text": "메이크업 대회반",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup007.asp",
+      "parentText": "메이크업 대회반"
+    },
+    {
+      "text": "Hair Design헤어디자인",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair001.asp",
+      "parentText": "Hair Design헤어디자인\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t헤어 국가자격증\n\t\t\t\t\t헤어 현장실무\n\t\t\t\t\t업스타일\n\t\t\t\t\t헤어커트\n\t\t\t\t\t헤어컬러링\n\t\t\t\t\t헤어 대회반"
+    },
+    {
+      "text": "헤어 국가자격증",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair001.asp",
+      "parentText": "헤어 국가자격증"
+    },
+    {
+      "text": "헤어 현장실무",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair002.asp",
+      "parentText": "헤어 현장실무"
+    },
+    {
+      "text": "업스타일",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair003.asp",
+      "parentText": "업스타일"
+    },
+    {
+      "text": "헤어커트",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair004.asp",
+      "parentText": "헤어커트"
+    },
+    {
+      "text": "헤어컬러링",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair005.asp",
+      "parentText": "헤어컬러링"
+    },
+    {
+      "text": "헤어 대회반",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair006.asp",
+      "parentText": "헤어 대회반"
+    },
+    {
+      "text": "Nail Art네일아트",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart001.asp",
+      "parentText": "Nail Art네일아트\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t네일아트 국가자격증\n\t\t\t\t\t네일아트 현장실무\n\t\t\t\t\t일렉트릭 드릴 머신\n\t\t\t\t\t젤아트"
+    },
+    {
+      "text": "네일아트 국가자격증",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart001.asp",
+      "parentText": "네일아트 국가자격증"
+    },
+    {
+      "text": "네일아트 현장실무",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart002.asp",
+      "parentText": "네일아트 현장실무"
+    },
+    {
+      "text": "일렉트릭 드릴 머신",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart003.asp",
+      "parentText": "일렉트릭 드릴 머신"
+    },
+    {
+      "text": "젤아트",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart004.asp",
+      "parentText": "젤아트"
+    },
+    {
+      "text": "Esthetic에스테틱",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/esthetique001.asp",
+      "parentText": "Esthetic에스테틱\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t에스테틱 국가자격증\n\t\t\t\t\t에스테틱션 국가직무교육과정"
+    },
+    {
+      "text": "에스테틱 국가자격증",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/esthetique001.asp",
+      "parentText": "에스테틱 국가자격증"
+    },
+    {
+      "text": "에스테틱션 국가직무교육과정",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/esthetique002.asp",
+      "parentText": "에스테틱션 국가직무교육과정"
+    },
+    {
+      "text": "Eyelashes속눈썹",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special003.asp",
+      "parentText": "Eyelashes속눈썹"
+    },
+    {
+      "text": "Waxing 왁싱",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special002.asp",
+      "parentText": "Waxing 왁싱"
+    },
+    {
+      "text": "Special 스페셜",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special001.asp",
+      "parentText": "Special 스페셜\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t두피관리 전문가\n\t\t\t\t\t왁싱 전문가\n\t\t\t\t\t속눈썹 연장\n\t\t\t\t\t뷰티 전문가\n\t\t\t\t\t맞춤형 화장품 조제관리사\n\t\t\t\t\t붙임머리\n\t\t\t\t\t트러블 스킨케어\n\t\t\t\t\t퍼스널 컬러"
+    },
+    {
+      "text": "두피관리 전문가",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special001.asp",
+      "parentText": "두피관리 전문가"
+    },
+    {
+      "text": "왁싱 전문가",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special002.asp",
+      "parentText": "왁싱 전문가"
+    },
+    {
+      "text": "속눈썹 연장",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special003.asp",
+      "parentText": "속눈썹 연장"
+    },
+    {
+      "text": "뷰티 전문가",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special004.asp",
+      "parentText": "뷰티 전문가"
+    },
+    {
+      "text": "맞춤형 화장품 조제관리사",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special005.asp",
+      "parentText": "맞춤형 화장품 조제관리사"
+    },
+    {
+      "text": "붙임머리",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special006.asp",
+      "parentText": "붙임머리"
+    },
+    {
+      "text": "트러블 스킨케어",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special007.asp",
+      "parentText": "트러블 스킨케어"
+    },
+    {
+      "text": "퍼스널 컬러",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/special008.asp",
+      "parentText": "퍼스널 컬러"
+    },
+    {
+      "text": "Teachers강사진",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/teacher.asp",
+      "parentText": "Teachers강사진"
+    },
+    {
+      "text": "수강료조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition.asp",
+      "parentText": "수강료조회"
+    },
+    {
+      "text": "이달의혜택",
+      "href": "https://www.allthat-beauty.com/web/2022/community/noticeView.asp?idxnum=525",
+      "parentText": "이달의혜택"
+    },
+    {
+      "text": "자격증일정",
+      "href": "https://www.allthat-beauty.com/web/2022/community/schedule.asp",
+      "parentText": "자격증일정"
+    },
+    {
+      "text": "방문상담예약",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/visit.asp",
+      "parentText": "방문상담예약"
+    },
+    {
+      "text": "위치조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "위치조회"
+    },
+    {
+      "text": "수강생후기",
+      "href": "https://www.allthat-beauty.com/web/2022/community/postList.asp",
+      "parentText": "수강생후기"
+    },
+    {
+      "text": "1 월 한정 특급 이벤트!수강료조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition.asp",
+      "parentText": "1 월 한정 특급 이벤트!수강료조회"
+    },
+    {
+      "text": "자격증 시험일정조회",
+      "href": "https://www.allthat-beauty.com/web/2022/community/schedule.asp",
+      "parentText": "자격증 시험일정조회"
+    },
+    {
+      "text": "카톡상담",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/kakao.asp",
+      "parentText": "카톡상담"
+    },
+    {
+      "text": "학원위치조회",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/location.asp",
+      "parentText": "학원위치조회"
+    },
+    {
+      "text": "메이크업\n\t\t\t\t\t\tMake up",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/makeup001.asp",
+      "parentText": "메이크업\n\t\t\t\t\t\tMake up"
+    },
+    {
+      "text": "헤어디자인\n\t\t\t\t\t\tHair Design",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/hair001.asp",
+      "parentText": "헤어디자인\n\t\t\t\t\t\tHair Design"
+    },
+    {
+      "text": "네일아트\n\t\t\t\t\t\tNailart",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/nailart001.asp",
+      "parentText": "네일아트\n\t\t\t\t\t\tNailart"
+    },
+    {
+      "text": "이용\n\t\t\t\t\t\tBarber",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/barber001.asp",
+      "parentText": "이용\n\t\t\t\t\t\tBarber"
+    },
+    {
+      "text": "에스테틱\n\t\t\t\t\t\tEsthetic",
+      "href": "https://www.allthat-beauty.com/web/2022/curriculum/esthetique001.asp",
+      "parentText": "에스테틱\n\t\t\t\t\t\tEsthetic"
+    },
+    {
+      "text": "헤어디자인학과 이채영 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2553",
+      "parentText": "헤어디자인학과 이채영 수강생 인터뷰"
+    },
+    {
+      "text": "헤어디자인학과 구예린 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2552",
+      "parentText": "헤어디자인학과 구예린 수강생 인터뷰"
+    },
+    {
+      "text": "에스테틱학과 나은지 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2549",
+      "parentText": "에스테틱학과 나은지 수강생 인터뷰"
+    },
+    {
+      "text": "네일아트학과 이가윤 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2556",
+      "parentText": "네일아트학과 이가윤 수강생 인터뷰"
+    },
+    {
+      "text": "메이크업학과 최정은 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2555",
+      "parentText": "메이크업학과 최정은 수강생 인터뷰"
+    },
+    {
+      "text": "에스테틱학과 김진아 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2554",
+      "parentText": "에스테틱학과 김진아 수강생 인터뷰"
+    },
+    {
+      "text": "헤어디자인학과 이채영 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2553",
+      "parentText": "헤어디자인학과 이채영 수강생 인터뷰"
+    },
+    {
+      "text": "헤어디자인학과 구예린 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2552",
+      "parentText": "헤어디자인학과 구예린 수강생 인터뷰"
+    },
+    {
+      "text": "에스테틱학과 나은지 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2549",
+      "parentText": "에스테틱학과 나은지 수강생 인터뷰"
+    },
+    {
+      "text": "네일아트학과 이가윤 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2556",
+      "parentText": "네일아트학과 이가윤 수강생 인터뷰"
+    },
+    {
+      "text": "메이크업학과 최정은 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2555",
+      "parentText": "메이크업학과 최정은 수강생 인터뷰"
+    },
+    {
+      "text": "에스테틱학과 김진아 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2554",
+      "parentText": "에스테틱학과 김진아 수강생 인터뷰"
+    },
+    {
+      "text": "헤어디자인학과 이채영 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2553",
+      "parentText": "헤어디자인학과 이채영 수강생 인터뷰"
+    },
+    {
+      "text": "헤어디자인학과 구예린 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2552",
+      "parentText": "헤어디자인학과 구예린 수강생 인터뷰"
+    },
+    {
+      "text": "에스테틱학과 나은지 수강생 인터뷰",
+      "href": "https://www.allthat-beauty.com/web/2022/community/interviewView.asp?idxnum=2549",
+      "parentText": "에스테틱학과 나은지 수강생 인터뷰"
+    },
+    {
+      "text": "Etc & Seminar\n\t\t\t\t\t\t\t올댓뷰티아카데미 금나와라 뚝딱 -황금열쇠의 주인공은 누구- 이벤트 진행",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2856",
+      "parentText": "Etc & Seminar\n\t\t\t\t\t\t\t올댓뷰티아카데미 금나와라 뚝딱 -황금열쇠의 주인공은 누구- 이벤트 진행"
+    },
+    {
+      "text": "Nailist Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 요즘 핫한 네일 현장 스킬! 모두 다 알려줄께!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2855",
+      "parentText": "Nailist Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 요즘 핫한 네일 현장 스킬! 모두 다 알려줄께!"
+    },
+    {
+      "text": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 스타일링, 올림머리의 기초! 업스타일 수업 현장~!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2854",
+      "parentText": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 스타일링, 올림머리의 기초! 업스타일 수업 현장~!"
+    },
+    {
+      "text": "Make up Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 아름다운 눈을 위한 속눈썹 펌 수업 현장!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2859",
+      "parentText": "Make up Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 아름다운 눈을 위한 속눈썹 펌 수업 현장!"
+    },
+    {
+      "text": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 내가 미래의 헤어 디자이너! 헤어 현장 실무반",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2858",
+      "parentText": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 내가 미래의 헤어 디자이너! 헤어 현장 실무반"
+    },
+    {
+      "text": "Esthetic Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 깔끔한 이미지를 위해선! 한 올도 남길 수 없어!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2857",
+      "parentText": "Esthetic Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 깔끔한 이미지를 위해선! 한 올도 남길 수 없어!"
+    },
+    {
+      "text": "Etc & Seminar\n\t\t\t\t\t\t\t올댓뷰티아카데미 금나와라 뚝딱 -황금열쇠의 주인공은 누구- 이벤트 진행",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2856",
+      "parentText": "Etc & Seminar\n\t\t\t\t\t\t\t올댓뷰티아카데미 금나와라 뚝딱 -황금열쇠의 주인공은 누구- 이벤트 진행"
+    },
+    {
+      "text": "Nailist Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 요즘 핫한 네일 현장 스킬! 모두 다 알려줄께!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2855",
+      "parentText": "Nailist Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 요즘 핫한 네일 현장 스킬! 모두 다 알려줄께!"
+    },
+    {
+      "text": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 스타일링, 올림머리의 기초! 업스타일 수업 현장~!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2854",
+      "parentText": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 스타일링, 올림머리의 기초! 업스타일 수업 현장~!"
+    },
+    {
+      "text": "Make up Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 아름다운 눈을 위한 속눈썹 펌 수업 현장!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2859",
+      "parentText": "Make up Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 아름다운 눈을 위한 속눈썹 펌 수업 현장!"
+    },
+    {
+      "text": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 내가 미래의 헤어 디자이너! 헤어 현장 실무반",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2858",
+      "parentText": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 내가 미래의 헤어 디자이너! 헤어 현장 실무반"
+    },
+    {
+      "text": "Esthetic Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 깔끔한 이미지를 위해선! 한 올도 남길 수 없어!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2857",
+      "parentText": "Esthetic Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 깔끔한 이미지를 위해선! 한 올도 남길 수 없어!"
+    },
+    {
+      "text": "Etc & Seminar\n\t\t\t\t\t\t\t올댓뷰티아카데미 금나와라 뚝딱 -황금열쇠의 주인공은 누구- 이벤트 진행",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2856",
+      "parentText": "Etc & Seminar\n\t\t\t\t\t\t\t올댓뷰티아카데미 금나와라 뚝딱 -황금열쇠의 주인공은 누구- 이벤트 진행"
+    },
+    {
+      "text": "Nailist Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 요즘 핫한 네일 현장 스킬! 모두 다 알려줄께!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2855",
+      "parentText": "Nailist Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 요즘 핫한 네일 현장 스킬! 모두 다 알려줄께!"
+    },
+    {
+      "text": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 스타일링, 올림머리의 기초! 업스타일 수업 현장~!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/storyView.asp?idxnum=2854",
+      "parentText": "Hair designer Course\n\t\t\t\t\t\t\t올댓뷰티아카데미 스타일링, 올림머리의 기초! 업스타일 수업 현장~!"
+    },
+    {
+      "text": "수강신청 하러가기",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition.asp",
+      "parentText": "수강신청 하러가기"
+    },
+    {
+      "text": "광주이용사 실기시험 꿀팁 특강",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1904&cate1=0",
+      "parentText": "광주이용사 실기시험 꿀팁 특강"
+    },
+    {
+      "text": "일산아이섀도우로 네일아트를 한다구~?",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1905&cate1=0",
+      "parentText": "일산아이섀도우로 네일아트를 한다구~?"
+    },
+    {
+      "text": "노원화이트데이 사탕뽑기!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1906&cate1=0",
+      "parentText": "노원화이트데이 사탕뽑기!"
+    },
+    {
+      "text": "천안2025 메이크업 One Day Class",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1884&cate1=0",
+      "parentText": "천안2025 메이크업 One Day Class"
+    },
+    {
+      "text": "강남올댓뷰티아카데미에서 진행하는 네일아트 대회반 특강~!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1907&cate1=0",
+      "parentText": "강남올댓뷰티아카데미에서 진행하는 네일아트 대회반 특강~!"
+    },
+    {
+      "text": "신촌원패스 기원을 위한 미용사(메이크업) 모의테스트",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1899&cate1=0",
+      "parentText": "신촌원패스 기원을 위한 미용사(메이크업) 모의테스트"
+    },
+    {
+      "text": "부산눈가리고 아웅~",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1898&cate1=0",
+      "parentText": "부산눈가리고 아웅~"
+    },
+    {
+      "text": "대구필기도 ONE PASS",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1890&cate1=0",
+      "parentText": "대구필기도 ONE PASS"
+    },
+    {
+      "text": "인천올뷰살롱 에스테틱학과",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1902&cate1=0",
+      "parentText": "인천올뷰살롱 에스테틱학과"
+    },
+    {
+      "text": "대전2024 하반기 공모전 Award in Daejeon",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1863&cate1=0",
+      "parentText": "대전2024 하반기 공모전 Award in Daejeon"
+    },
+    {
+      "text": "수원뷰티수원 또 일냈다! 붕어빵에 이은 올뷰 와플",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1892&cate1=0",
+      "parentText": "수원뷰티수원 또 일냈다! 붕어빵에 이은 올뷰 와플"
+    },
+    {
+      "text": "광주이용사 실기시험 꿀팁 특강",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1904&cate1=0",
+      "parentText": "광주이용사 실기시험 꿀팁 특강"
+    },
+    {
+      "text": "일산아이섀도우로 네일아트를 한다구~?",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1905&cate1=0",
+      "parentText": "일산아이섀도우로 네일아트를 한다구~?"
+    },
+    {
+      "text": "노원화이트데이 사탕뽑기!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1906&cate1=0",
+      "parentText": "노원화이트데이 사탕뽑기!"
+    },
+    {
+      "text": "천안2025 메이크업 One Day Class",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1884&cate1=0",
+      "parentText": "천안2025 메이크업 One Day Class"
+    },
+    {
+      "text": "강남올댓뷰티아카데미에서 진행하는 네일아트 대회반 특강~!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1907&cate1=0",
+      "parentText": "강남올댓뷰티아카데미에서 진행하는 네일아트 대회반 특강~!"
+    },
+    {
+      "text": "신촌원패스 기원을 위한 미용사(메이크업) 모의테스트",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1899&cate1=0",
+      "parentText": "신촌원패스 기원을 위한 미용사(메이크업) 모의테스트"
+    },
+    {
+      "text": "부산눈가리고 아웅~",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1898&cate1=0",
+      "parentText": "부산눈가리고 아웅~"
+    },
+    {
+      "text": "대구필기도 ONE PASS",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1890&cate1=0",
+      "parentText": "대구필기도 ONE PASS"
+    },
+    {
+      "text": "인천올뷰살롱 에스테틱학과",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1902&cate1=0",
+      "parentText": "인천올뷰살롱 에스테틱학과"
+    },
+    {
+      "text": "대전2024 하반기 공모전 Award in Daejeon",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1863&cate1=0",
+      "parentText": "대전2024 하반기 공모전 Award in Daejeon"
+    },
+    {
+      "text": "수원뷰티수원 또 일냈다! 붕어빵에 이은 올뷰 와플",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1892&cate1=0",
+      "parentText": "수원뷰티수원 또 일냈다! 붕어빵에 이은 올뷰 와플"
+    },
+    {
+      "text": "광주이용사 실기시험 꿀팁 특강",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1904&cate1=0",
+      "parentText": "광주이용사 실기시험 꿀팁 특강"
+    },
+    {
+      "text": "일산아이섀도우로 네일아트를 한다구~?",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1905&cate1=0",
+      "parentText": "일산아이섀도우로 네일아트를 한다구~?"
+    },
+    {
+      "text": "노원화이트데이 사탕뽑기!",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1906&cate1=0",
+      "parentText": "노원화이트데이 사탕뽑기!"
+    },
+    {
+      "text": "천안2025 메이크업 One Day Class",
+      "href": "https://www.allthat-beauty.com/web/2022/community/seminarView.asp?idxnum=1884&cate1=0",
+      "parentText": "천안2025 메이크업 One Day Class"
+    },
+    {
+      "text": "개인정보처리방침",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/privacy_info.asp",
+      "parentText": "개인정보처리방침"
+    },
+    {
+      "text": "사업제휴",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/partner.asp",
+      "parentText": "사업제휴"
+    },
+    {
+      "text": "고객상담센터",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/online.asp",
+      "parentText": "고객상담센터"
+    },
+    {
+      "text": "오시는 길",
+      "href": "https://www.allthat-beauty.com/web/2022/academy/location.asp",
+      "parentText": "오시는 길"
+    },
+    {
+      "text": "수강료안내",
+      "href": "https://www.allthat-beauty.com/web/2022/customer/tuition_info.asp",
+      "parentText": "수강료안내"
+    }
+  ]
+}

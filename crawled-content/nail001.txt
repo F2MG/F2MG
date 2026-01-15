@@ -1,0 +1,35 @@
+{
+  "url": "https://www.allthat-beauty.com/m/2022/curriculum/nail/nail001.asp",
+  "name": "국가자격증",
+  "crawledAt": "2026-01-13T13:48:00.181Z",
+  "content": {
+    "title": "",
+    "headings": [
+      "HTTP 오류 404.0 - Not Found",
+      "찾고 있는 리소스가 제거되었거나, 이름이 바뀌었거나, 일시적으로 사용할 수 없는 상태입니다.",
+      "가능성이 높은 원인:",
+      "가능한 해결 방법:",
+      "자세한 오류 정보:",
+      "추가 정보:"
+    ],
+    "paragraphs": [
+      "기타 정보 보기 »"
+    ],
+    "lists": [
+      "지정한 디렉터리 또는 파일이 웹 서버에 존재하지 않습니다.",
+      "URL을 잘못 입력했습니다.",
+      "URLScan 등의 사용자 지정 필터 또는 모듈에서 파일에 대한 액세스를 제한합니다.",
+      "웹 서버에서 콘텐츠를 만드십시오.",
+      "브라우저 URL을 검토해 보십시오.",
+      "실패한 요청에서 이 HTTP 상태 코드를 추적하는 추적 규칙을 만드십시오. 실패한 요청에 대한 추적 규칙을 만드는 방법을 자세하게 보려면 여기를 클릭하십시오."
+    ],
+    "divs": [
+      "HTTP 오류 404.0 - Not Found\n찾고 있는 리소스가 제거되었거나, 이름이 바뀌었거나, 일시적으로 사용할 수 없는 상태입니다.",
+      "가능성이 높은 원인:\n지정한 디렉터리 또는 파일이 웹 서버에 존재하지 않습니다.\nURL을 잘못 입력했습니다.\nURLScan 등의 사용자 지정 필터 또는 모듈에서 파일에 대한 액세스를 제한합니다.",
+      "가능한 해결 방법:\n웹 서버에서 콘텐츠를 만드십시오.\n브라우저 URL을 검토해 보십시오.\n실패한 요청에서 이 HTTP 상태 코드를 추적하는 추적 규칙을 만드십시오. 실패한 요청에 대한 추적 규칙을 만드는 방법을 자세하게 보려면 여기를 클릭하십시오.",
+      "자세한 오류 정보:\n모듈\t   IIS Web Core\n알림\t   MapRequestHandler\n처리기\t   ASPClassic\n오류 코드\t   0x80070002\n요청한 URL\t   https://www.allthat-beauty.com:443/m/2022/curriculum/nail/nail001.asp\n실제 경로\t   \\\\10.13.53.117\\contents\\WebRoot\\AllthatBeauty\\m\\2022\\curriculum\\nail\\nail001.asp\n로그온 방법d\t   익명\n로그온 사용자\t   익명\n요청 추적 디렉터리\t   C:\\inetpub\\logs\\FailedReqLogFiles",
+      "추가 정보:\n이 오류는 파일이나 디렉터리가 서버에 존재하지 않는다는 것을 의미합니다. 파일이나 디렉터리를 만든 다음 다시 요청해 보십시오.\n\n기타 정보 보기 »"
+    ],
+    "fullText": "HTTP 오류 404.0 - Not Found\n찾고 있는 리소스가 제거되었거나, 이름이 바뀌었거나, 일시적으로 사용할 수 없는 상태입니다.\n가능성이 높은 원인:\n지정한 디렉터리 또는 파일이 웹 서버에 존재하지 않습니다.\nURL을 잘못 입력했습니다.\nURLScan 등의 사용자 지정 필터 또는 모듈에서 파일에 대한 액세스를 제한합니다.\n가능한 해결 방법:\n웹 서버에서 콘텐츠를 만드십시오.\n브라우저 URL을 검토해 보십시오.\n실패한 요청에서 이 HTTP 상태 코드를 추적하는 추적 규칙을 만드십시오. 실패한 요청에 대한 추적 규칙을 만드는 방법을 자세하게 보려면 여기를 클릭하십시오.\n자세한 오류 정보:\n모듈\t   IIS Web Core\n알림\t   MapRequestHandler\n처리기\t   ASPClassic\n오류 코드\t   0x80070002\n요청한 URL\t   https://www.allthat-beauty.com:443/m/2022/curriculum/nail/nail001.asp\n실제 경로\t   \\\\10.13.53.117\\contents\\WebRoot\\AllthatBeauty\\m\\2022\\curriculum\\nail\\nail001.asp\n로그온 방법d\t   익명\n로그온 사용자\t   익명\n요청 추적 디렉터리\t   C:\\inetpub\\logs\\FailedReqLogFiles\n추가 정보:\n이 오류는 파일이나 디렉터리가 서버에 존재하지 않는다는 것을 의미합니다. 파일이나 디렉터리를 만든 다음 다시 요청해 보십시오.\n\n기타 정보 보기 »"
+  }
+}

@@ -1,0 +1,38 @@
+/* 메가메뉴 기본 스타일 - 최소한의 display/position만 사용 */
+
+.mega-menu-panel {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.mega-menu-trigger:hover .mega-menu-panel,
+.mega-menu-trigger.uk-active .mega-menu-panel {
+    display: block;
+}
+
+.mega-menu-content {
+    display: flex;
+    width: 100%;
+}
+
+.mega-menu-column {
+    flex: 1;
+    position: relative;
+}
+
+.mega-menu-title {
+    position: relative;
+}
+
+.mega-menu-list {
+    list-style: none;
+    position: relative;
+}
+
+.mega-menu-list li {
+    position: relative;
+}
+
